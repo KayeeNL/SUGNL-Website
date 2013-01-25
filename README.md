@@ -3,6 +3,8 @@ SUGNL-Website
 The sourcecode for the soon to be released website of the Sitecore User Group Netherlands (http://www.sugnl.net). 
 Developed against Sitecore version "Sitecore 6.6.0 rev. 130111", which is update-3.
 
+This isn't entirely finished yet!
+
 ================================
 Contributors:
 ================================
