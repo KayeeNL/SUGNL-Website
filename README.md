@@ -1,6 +1,6 @@
 SUGNL-Website
 =============
-The sourcecode for the website of the Sitecore User Group Netherlands (http://www.sugnl.net). 
+The sourcecode for the soon to be released website of the Sitecore User Group Netherlands (http://www.sugnl.net). 
 Developed against Sitecore version "Sitecore 6.6.0 rev. 130111", which is update-3.
 
 ================================
@@ -8,9 +8,8 @@ Contributors:
 ================================
 Design and Front-end development: Estate (http://www.estate.nl)
 
-Technical implementatation:       Robbert Hock - Kayee, Internet & Software Oplossingen (http://www.kayee.nl)
+Technical implementatation:       Robbert Hock - Kayee, Internet & Software Oplossingen (http://www.kayee.nl) - Twitter: @kayeeNL
 
-Twitter: @kayeeNL
 ================================
 
 ================================
