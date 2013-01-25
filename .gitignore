@@ -76,3 +76,7 @@ Website/webedit.css
 Website/upload/readme.txt
 Website/Website.csproj.sitecore
 Website/Website.csproj.user
+TDS-Master/Debug/
+TDS-Master/Debug
+TDS-Master/Debug/bin/SUGNL.Website.dll
+TDS-Master/Debug/bin/SUGNL.Website.pdb
