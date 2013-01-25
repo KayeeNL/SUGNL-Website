@@ -1,0 +1,184 @@
+----item----
+version: 1
+id: {17E82E60-40A4-4F4C-8DA3-698FEE794E91}
+database: master
+path: /sitecore/content/Home/Archief/Pre Meeting 30 augustus 2012 Sitecore
+parent: {BA01B6B5-BF68-46DE-900F-BCE1227E72B0}
+name: Pre Meeting 30 augustus 2012 Sitecore
+master: {00000000-0000-0000-0000-000000000000}
+template: {96AF9595-38CA-4A58-846D-B66F7D393F53}
+templatekey: Meeting
+
+----version----
+language: en
+version: 1
+revision: f0edcdc3-e0c7-4b8f-8f7a-7400f3a215db
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20121030T225102:634872342622464354
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f0edcdc3-e0c7-4b8f-8f7a-7400f3a215db
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20121030T225102:634872342622464354
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: nl-NL
+version: 1
+revision: 7e54ed8c-5336-4d37-81d2-9b28f6bc0ef3
+
+----field----
+field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
+name: Browser Title
+key: browser title
+content-length: 37
+
+Pre Meeting 30 augustus 2012 Sitecore
+----field----
+field: {B22197A6-5868-42DF-9BA5-0C19DA817C30}
+name: Menu Title
+key: menu title
+content-length: 37
+
+Pre Meeting 30 augustus 2012 Sitecore
+----field----
+field: {B1C8671B-97FB-41BC-B6B5-0B9D25A1360E}
+name: Content Title
+key: content title
+content-length: 37
+
+Pre Meeting 30 augustus 2012 Sitecore
+----field----
+field: {9196F290-823E-45D0-BDEC-FB3336099611}
+name: Content SubTitle
+key: content subtitle
+content-length: 44
+
+De allereerste bijeenkomst van de user group
+----field----
+field: {B43063B2-C0E7-4401-AAE3-70AE610AABF4}
+name: Date
+key: date
+content-length: 15
+
+20120830T000000
+----field----
+field: {36CD076D-0445-4C59-ABCD-AC0A5D46DC3E}
+name: Start Time
+key: start time
+content-length: 9
+
+18:00 uur
+----field----
+field: {33AA52F7-F6F5-4AC4-A4D4-612D8CB851DE}
+name: End Time
+key: end time
+content-length: 9
+
+21:00 uur
+----field----
+field: {958B7575-FAB8-4F92-B402-F5BD0B0A6CC6}
+name: Meeting Type
+key: meeting type
+content-length: 38
+
+{BA03F3D8-5A19-4B24-9255-211C85F6A7BF}
+----field----
+field: {9DCDB4AA-4570-4FFF-8229-3347F7A60A4B}
+name: Location
+key: location
+content-length: 70
+
+Sitecore Nederland BV<br />
+Huis ter Heideweg 14<br />
+3705 LZ ZEIST
+----field----
+field: {6DD7F51B-5F96-4E0F-87CF-B3E2A0A8DFFF}
+name: Speakers
+key: speakers
+content-length: 77
+
+{501037D2-AC3A-4C34-9D72-30E85A5F07C3}|{8B7ED3DA-2534-4E85-A08C-2BA113DDA3B2}
+----field----
+field: {88EB4369-1ADE-4652-862A-D9C9632BFA99}
+name: Organizer Logo
+key: organizer logo
+content-length: 185
+
+<image mediaid="{B881DF86-24DD-4127-8D46-3DAD59019CE2}" mediapath="/SUGNL/Meetings/Pre Meeting 30 augustus 2012 Sitecore/sitecore" src="~/media/B881DF8624DD41278D463DAD59019CE2.ashx" />
+----field----
+field: {867B8B66-990C-446D-87CC-A3B5FEEAC86D}
+name: Attending Title
+key: attending title
+content-length: 10
+
+Aanmelden?
+----field----
+field: {C2873975-B25C-4ABC-A21E-D420D9994AB6}
+name: Attending Intro
+key: attending intro
+content-length: 87
+
+U kunt zich helaas niet meer aanmelden, omdat dit evenement reeds plaats heeft gevonden
+----field----
+field: {E0777471-F22B-44CB-A132-2D3B00610784}
+name: Photos Folder
+key: photos folder
+content-length: 192
+
+<link linktype="internal" url="/sitecore/media library/SUGNL/Meetings/Pre Meeting 30 augustus 2012 Sitecore/Photos.aspx" querystring="" target="" id="{BE422C4E-362B-4349-909A-1AA6E3B2AD4D}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20121030T224900
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7e54ed8c-5336-4d37-81d2-9b28f6bc0ef3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130112T224502:634936275028402062
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

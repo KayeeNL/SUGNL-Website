@@ -1,0 +1,172 @@
+@using System.Collections.Specialized
+@using Website.MVC.Model
+@using Website.Utils
+@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TemplateBase<AgendaModel>
+<div class="row detail">
+    <div class="twelve columns">
+        @if (!string.IsNullOrEmpty(Model.ContentSubTitle))
+        {
+            <h2>@Model.ContentSubTitle</h2>
+        }
+        else
+        {
+            <h2>@Model.ContentTitle</h2>
+        }
+
+    </div>
+
+    <div class="three columns">
+        <div class="dateBlock">
+            <span class="date">@Model.Date.ToString("dd")</span><br />
+            <span class="month">@Model.Date.ToString("MMMM")</span>
+            <span class="year">@Model.Date.ToString("yyyy")</span>
+            <ul>
+                <li class="time">@Editable(x => x.StartTime) - @Editable(x => x.EndTime)</li>
+                <li class="location">@Raw(Model.Location)</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="five columns">
+        <p>@Raw(Model.ContentIntroduction)</p>
+        @GlassHtml.RenderLink(Model.AttendingUrl, new NameValueCollection { { "class", "aanmeldButton" }, { "title", "Meld je nu aan" } }, "Meld je nu aan")
+
+    </div>
+    @if (!string.IsNullOrEmpty(Model.OrganizerLogo.Src))
+    {
+        <div class="four columns fotoContainer">
+            @GlassHtml.RenderImage(Model.OrganizerLogo)
+        </div>
+    }
+
+    <div class="twelve columns detailMenu">
+        <dl class="tabs">
+            <dd><a href="#datum">Datum</a></dd>
+            <dd><a href="#lokatie">Lokatie</a></dd>
+            <dd class="active"><a href="#onderwerp">Onderwerpen</a></dd>
+            @if (Model.Speakers.Any())
+            {
+                <dd><a href="#sprekers">Sprekers</a></dd>
+            }
+            <dd><a href="#aanmelden">Aanmelden</a></dd>
+            @if (Model.DownloadsFolder != null)
+            {
+                <dd><a href="#downloads">Downloads</a></dd>
+            }
+        </dl>
+        <ul class="tabs-content">
+            <li id="datumTab">
+                <div class="genericContent">
+                    @Model.Date.ToString("dd MMMM yyyy")
+                </div>
+            </li>
+            <li id="lokatieTab">
+                <div class="genericContent">
+                    @Raw(Model.Location)
+                </div>
+            </li>
+            <li class="active" id="onderwerpTab">
+                <div class="genericContent">
+                    @Raw(Model.Topics)
+                </div>
+            </li>
+            <li id="sprekersTab">
+                <div class="overview overviewList">
+                    @foreach (PersonModel speaker in Model.Speakers)
+                    {
+                        <div class="row">
+                            <div class="three columns">
+                                <div class="imageContainer">
+                                    <a href="@speaker.Url">
+                                        @GlassHtml.Editable(speaker, x => x.PersonImage, GlassHtml.RenderImage(speaker.PersonImage))
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="nine columns contentBlock">
+                                <h2><a href="@speaker.Url">@GlassHtml.Editable(speaker, x => x.FirstName) @GlassHtml.Editable(speaker, x => x.LastName)</a></h2>
+                                <p>@GlassHtml.Editable(speaker, x => x.ContentIntroduction)</p>
+                                <div class="linksContainer">
+                                    @if (SitecoreUtil.IsPageEditor() || !string.IsNullOrEmpty(speaker.Email))
+                                    {
+                                        <a href="mailto:@speaker.Email" class="mail" title="Email">Email</a>
+                                    }
+                                    @if (SitecoreUtil.IsPageEditor() || !string.IsNullOrEmpty(speaker.FacebookUrl))
+                                    {
+                                        <a href="@speaker.FacebookUrl" class="facebook" title="Facebook">Facebook</a>
+                                    }
+                                    @if (SitecoreUtil.IsPageEditor() || !string.IsNullOrEmpty(speaker.TwitterUrl))
+                                    {
+                                        <a href="@speaker.TwitterUrl" class="twitter" title="Twitter">Twitter</a>
+                                    }
+                                    @if (SitecoreUtil.IsPageEditor() || !string.IsNullOrEmpty(speaker.LinkedInUrl))
+                                    {
+                                        <a href="@speaker.LinkedInUrl" class="linkedIn" title="LinkedIn">LinkedIn</a>
+                                    }
+                                    @if (SitecoreUtil.IsPageEditor() || !string.IsNullOrEmpty(speaker.BlogUrl))
+                                    {
+                                        <a href="@speaker.BlogUrl" class="leesMeer" title="Blog">Blog</a>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </li>
+            <li id="aanmeldenTab">
+                <div class="genericContent">
+                    <div class="row ">
+                        <div class="three columns">
+                            @GlassHtml.RenderLink(Model.AttendingUrl, new NameValueCollection { { "class", "aanmeldButton" }, { "title", "Meld je nu aan" } }, "Meld je nu aan")
+                        </div>
+                        <div class="nine columns">
+                            <h3><a href="#">@Editable(x => x.AttendingTitle)</a></h3>
+                            <p>@Editable(x => x.AttendingIntro)</p>
+                        </div>
+                    </div>
+                </div>
+
+            </li>
+            @if (Model.DownloadsFolder != null)
+            {
+                MediaFolderModel mediaFolderModel = SitecoreUtil.GetTypedMediaFolderModel(Model.DownloadsFolder.TargetId);
+                if (mediaFolderModel.Files.Any())
+                {
+                <li id="downloadsTab">
+                    <ul>
+                        @foreach (MediaFileModel mediafile in mediaFolderModel.Files)
+                        {
+                            <li class="@mediafile.Extension"><a href="@mediafile.MediaPath">@mediafile.Name</a></li>
+                        }
+
+                    </ul>
+
+                </li>
+                }
+            }
+        </ul>
+    </div>
+</div>
+@if (Model.PhotosFolder != null)
+{
+    MediaFolderModel mediaFolderModel = SitecoreUtil.GetTypedMediaFolderModel(Model.PhotosFolder.TargetId);
+    if (mediaFolderModel.Files.Any())
+    {
+    <div class="row">
+        <div class="twelve columns">
+            <h3>Foto's</h3>
+        </div>
+        <div class="row">
+            @foreach (MediaFileModel mediaFileModel in mediaFolderModel.Files)
+            {
+                <div class="three columns">
+                    <a class="fancybox" rel="gallery" href="@mediaFileModel.MediaPath">
+                        <img alt="Alternate Text" src="@mediaFileModel.MediaThumbPath">
+                    </a>
+
+                </div>
+            }
+        </div>
+    </div>
+    }
+}

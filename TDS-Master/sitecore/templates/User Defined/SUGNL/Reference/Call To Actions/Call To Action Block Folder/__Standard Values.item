@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {772D3107-9092-45DB-9EAA-081EFCF4D8B1}
+database: master
+path: /sitecore/templates/User Defined/SUGNL/Reference/Call To Actions/Call To Action Block Folder/__Standard Values
+parent: {23A279D0-ADE6-44E5-87B1-A646EE1E217B}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {23A279D0-ADE6-44E5-87B1-A646EE1E217B}
+templatekey: Call To Action Block Folder
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{C8649F61-D075-4528-805C-9C1A04F92D16}|{23A279D0-ADE6-44E5-87B1-A646EE1E217B}
+----version----
+language: en
+version: 1
+revision: 664b96f0-e6ae-4a00-9833-3ea853eec1b4
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20121102T211700
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+664b96f0-e6ae-4a00-9833-3ea853eec1b4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20121102T211742:634874878629995544
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

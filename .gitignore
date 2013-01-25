@@ -1,0 +1,78 @@
+_ReSharper.SUGNL/
+Data/indexes/
+Data/debug/readme.txt
+Data/diagnostics/counters.20130120.224106.1660.txt
+Data/diagnostics/readme.txt
+Data/license.xml
+Data/logs/
+Data/packages/readme.txt
+Data/packages/SUGNL Architectuur-1.0.0.0.zip
+Data/packages/SUGNL Architectuur.xml
+Data/packages/SUGNL Content-1.0.0.0.zip
+Data/packages/SUGNL Content.xml
+Data/viewstate/
+Data/webdav.lic
+Databases/
+*.suo
+Website/App_Browsers/Form.browser
+Website/App_Browsers/XamlPage.browser
+Website/App_Config/Commands.config
+Website/App_Config/ConnectionStrings.config
+Website/App_Config/ConnectionStringsOracle.config
+Website/App_Config/FieldTypes.config
+Website/App_Config/Icons.config
+Website/App_Config/Include/DataFolder.config.example
+Website/App_Config/Include/EventHandler.config.example
+Website/App_Config/Include/ForwardingSecurityEvents.config.example
+Website/App_Config/Include/ja-JP.config.example
+Website/App_Config/Include/LiveMode.config.example
+Website/App_Config/Include/ScalabilitySettings.config.example
+Website/App_Config/Include/Sitecore.AntiCsrf.config
+Website/App_Config/Include/Sitecore.Mvc.config
+Website/App_Config/Include/Sitecore.MvcAnalytics.config
+Website/App_Config/Include/Sitecore.MvcExperienceEditor.config
+Website/App_Config/Include/Sitecore.MvcSimulator.config
+Website/App_Config/Include/Sitecore.Shell.MarketingAutomation.config
+Website/App_Config/Include/Sitecore.WebDAV.config
+Website/App_Config/Include/SitecoreSettings.config.example
+Website/App_Config/Include/SiteDefinition.config.example
+Website/App_Config/Include/WebDeploy.config.example
+Website/App_Config/Include/XslExtension.config.example
+Website/App_Config/LanguageDefinitions.config
+Website/App_Config/MimeTypes.config
+Website/App_Config/Portraits.config
+Website/App_Config/Prefetch/Common.config
+Website/App_Config/Prefetch/Core.config
+Website/App_Config/Prefetch/Master.config
+Website/App_Config/Prefetch/Web.config
+Website/App_Config/Prototypes.config
+Website/App_Config/Security/Domains.config
+Website/App_Config/Security/GlobalRoles.config
+Website/App_Config/XamlSharp.config
+Website/App_Data/
+Website/bin/
+Website/bin_Net4/
+Website/Default.aspx
+Website/default.css
+Website/default.htm.sitedown
+Website/default.js
+Website/Design.config
+Website/layouts/Sample Inner Sublayout.ascx
+Website/layouts/Sample layout.aspx
+Website/layouts/Sample Sublayout.ascx
+Website/layouts/system/VisitorIdentification.aspx
+Website/layouts/xmlcontrol.aspx
+Website/obj/
+Website/sitecore modules/
+Website/sitecore/
+Website/sitecore_files/Web.config
+Website/temp/
+Website/xsl/sample rendering.xslt
+Website/xsl/system/WebEdit/Hidden Rendering.xslt
+Website/Web.config.Oracle
+Website/Web.config.Oracle.Mvc
+Website/Web.config_old
+Website/webedit.css
+Website/upload/readme.txt
+Website/Website.csproj.sitecore
+Website/Website.csproj.user

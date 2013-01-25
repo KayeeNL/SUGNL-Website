@@ -1,0 +1,43 @@
+@using Website.MVC.Model
+@using Website.Utils
+@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TypedTemplate<PersonOverviewModel>
+<div class="overview overviewList">
+    @foreach (PersonModel speaker in Model.ChildrenAsPersonItems)
+    {
+        <div class="row">
+            <div class="three columns">
+                <div class="imageContainer">
+                    <a href="@speaker.Url">
+                        @GlassHtml.RenderImage(speaker.PersonImage)
+                    </a>
+                </div>
+            </div>
+            <div class="nine columns contentBlock">
+                <h2><a href="@speaker.Url">@GlassHtml.Editable(speaker, x => x.FirstName) @GlassHtml.Editable(speaker, x => x.LastName)</a></h2>
+                <p>@GlassHtml.Editable(speaker, x => x.ContentIntroduction)</p>
+                <div class="linksContainer">
+                    @if (SitecoreUtil.IsPageEditor() || !string.IsNullOrEmpty(speaker.Email))
+                    {
+                        <a href="mailto:@speaker.Email" class="mail" title="Email">Email</a>
+                    }
+                    @if (SitecoreUtil.IsPageEditor() || !string.IsNullOrEmpty(speaker.FacebookUrl))
+                    {
+                        <a href="@speaker.FacebookUrl" class="facebook" title="Facebook">Facebook</a>
+                    }
+                    @if (SitecoreUtil.IsPageEditor() || !string.IsNullOrEmpty(speaker.TwitterUrl))
+                    {
+                        <a href="@speaker.TwitterUrl" class="twitter" title="Twitter">Twitter</a>
+                    }
+                    @if (SitecoreUtil.IsPageEditor() || !string.IsNullOrEmpty(speaker.LinkedInUrl))
+                    {
+                        <a href="@speaker.LinkedInUrl" class="linkedIn" title="LinkedIn">LinkedIn</a>
+                    }
+                    @if (SitecoreUtil.IsPageEditor() || !string.IsNullOrEmpty(speaker.BlogUrl))
+                    {
+                        <a href="@speaker.BlogUrl" class="leesMeer" title="Blog">Blog</a>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>

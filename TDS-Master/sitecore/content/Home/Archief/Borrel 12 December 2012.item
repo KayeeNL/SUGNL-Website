@@ -1,0 +1,162 @@
+----item----
+version: 1
+id: {961B4B1F-67EC-4A7E-923F-08644B0E87D9}
+database: master
+path: /sitecore/content/Home/Archief/Borrel 12 December 2012
+parent: {BA01B6B5-BF68-46DE-900F-BCE1227E72B0}
+name: Borrel 12 December 2012
+master: {00000000-0000-0000-0000-000000000000}
+template: {96AF9595-38CA-4A58-846D-B66F7D393F53}
+templatekey: Meeting
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+-100
+----version----
+language: nl-NL
+version: 1
+revision: 9da51286-69ca-48a6-a38c-95c33bb1dcbd
+
+----field----
+field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
+name: Browser Title
+key: browser title
+content-length: 25
+
+Borrel - 12 December 2012
+----field----
+field: {B22197A6-5868-42DF-9BA5-0C19DA817C30}
+name: Menu Title
+key: menu title
+content-length: 25
+
+Borrel - 12 December 2012
+----field----
+field: {B1C8671B-97FB-41BC-B6B5-0B9D25A1360E}
+name: Content Title
+key: content title
+content-length: 25
+
+Borrel - 12 December 2012
+----field----
+field: {9196F290-823E-45D0-BDEC-FB3336099611}
+name: Content SubTitle
+key: content subtitle
+content-length: 33
+
+Kom borrelen op 12 december 2012!
+----field----
+field: {C75C7962-B318-465F-8996-0BCCCFB8864B}
+name: Content Introduction
+key: content introduction
+content-length: 213
+
+Van harte welkom bij de netwerk borrel van de Sitecore User Group Nederland (SUGNL). Om de 6 á 8 weken organiseren wij een event voor alle typen Sitecore gebruikers: van Developer tot Content Manager of Marketeer.
+----field----
+field: {B43063B2-C0E7-4401-AAE3-70AE610AABF4}
+name: Date
+key: date
+content-length: 15
+
+20121212T000000
+----field----
+field: {36CD076D-0445-4C59-ABCD-AC0A5D46DC3E}
+name: Start Time
+key: start time
+content-length: 5
+
+19:00
+----field----
+field: {33AA52F7-F6F5-4AC4-A4D4-612D8CB851DE}
+name: End Time
+key: end time
+content-length: 5
+
+22:30
+----field----
+field: {958B7575-FAB8-4F92-B402-F5BD0B0A6CC6}
+name: Meeting Type
+key: meeting type
+content-length: 38
+
+{B891A435-8F80-43BC-8242-8C23C75E7467}
+----field----
+field: {9DCDB4AA-4570-4FFF-8229-3347F7A60A4B}
+name: Location
+key: location
+content-length: 85
+
+<strong>Caf&eacute; Zussen<br />
+</strong>23 Korte Jansstraat<br />
+3512 GM Utrecht
+----field----
+field: {9C882C53-1A51-4F47-B742-5DDEE23B1803}
+name: Topics
+key: topics
+content-length: 880
+
+<p>Van harte welkom bij de netwerk borrel van de Sitecore User Group Nederland (SUGNL). Om de 6 &aacute; 8 weken organiseren wij een event voor alle typen Sitecore gebruikers: van Developer tot Content Manager of Marketeer.</p>
+<p>Tijdens deze informele borrel kan je kennis maken met andere Sitecore enthousiastelingen en van gedachten wisselen over alles wat met Sitecore te maken heeft. Wil je zelf een actieve bijdrage leveren aan de bijeenkomsten? Dat kan ook! </p>
+<p>Er is een Huishoudelijk Reglement waar alle deelnemers zich aan dienen te houden. Lees dit ajb even door voordat je komt.</p>
+<p>Binnenkort vind je meer informatie over SUGNL op onze website waar momenteel nog hard aan gesleuteld wordt, maar graag zien we je 12 december in caf&eacute; Zussen in Utrecht. Meld je daarom snel aan! </p>
+<p>Volg ons op Twitter: @sug_nl of praat mee en gebruik #sugnl.</p>
+----field----
+field: {88EB4369-1ADE-4652-862A-D9C9632BFA99}
+name: Organizer Logo
+key: organizer logo
+content-length: 176
+
+<image mediaid="{F4D31F73-799F-42CF-97B0-69375E1FA81A}" mediapath="/SUGNL/Meetings/Borrel 12 December 2012/logoZussen_zw" src="~/media/F4D31F73799F42CF97B069375E1FA81A.ashx" />
+----field----
+field: {867B8B66-990C-446D-87CC-A3B5FEEAC86D}
+name: Attending Title
+key: attending title
+content-length: 10
+
+Aanmelden?
+----field----
+field: {C2873975-B25C-4ABC-A21E-D420D9994AB6}
+name: Attending Intro
+key: attending intro
+content-length: 87
+
+U kunt zich helaas niet meer aanmelden, omdat dit evenement reeds plaats heeft gevonden
+----field----
+field: {E0777471-F22B-44CB-A132-2D3B00610784}
+name: Photos Folder
+key: photos folder
+content-length: 178
+
+<link linktype="internal" url="/sitecore/media library/SUGNL/Meetings/Borrel 12 December 2012/Photos.aspx" querystring="" target="" id="{B58313B3-2676-4423-B2AE-49318ED139F1}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20121228T230400
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9da51286-69ca-48a6-a38c-95c33bb1dcbd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130101T224701:634926772219098085
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

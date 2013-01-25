@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {9C5D145B-C508-4DE9-8BF5-4CB5C9941B92}
+database: master
+path: /sitecore/templates/User Defined/SUGNL/Page/Meeting Overview/__Standard Values
+parent: {2CF783DD-0612-4CC3-9C63-95B38136A246}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {2CF783DD-0612-4CC3-9C63-95B38136A246}
+templatekey: Meeting Overview
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 35
+
+Business/16x16/address_book_add.png
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{96AF9595-38CA-4A58-846D-B66F7D393F53}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 683
+
+<r  xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{53A093BD-58FF-423A-AED8-6E6CB5F22294}"><r id="{E574478D-7C61-4543-B5C3-653215CA8384}" ph="header" uid="{2AB053A3-0AED-4540-B674-EA00EB615AAD}" /><r id="{D83B739E-EFB4-40EA-A61B-882CBA6C05A7}" ph="top-bottom" uid="{7C84AFD9-B7E8-4269-8101-5ACF8BA1FBE1}" /><r id="{C1B83008-521D-40EF-88D3-F9368AC59C5D}" ph="content" uid="{12CA91AB-879F-4EFE-AB89-D07FCD13001B}" /><r id="{3B84058C-46E2-4F5F-8353-E678099B680F}" ph="content" uid="{157B2129-00D9-43F0-9F26-60F10ED53129}" /><r id="{4E3B268C-1C92-40D7-83F0-43D2D12973E0}" ph="footer" uid="{1B759785-A332-4519-8F3F-72BA4E5FDE02}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 4e7be3de-7d38-4266-990e-96cc5e0aa8ec
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20121027T222700
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4e7be3de-7d38-4266-990e-96cc5e0aa8ec
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20121229T224527:634924179277350820
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

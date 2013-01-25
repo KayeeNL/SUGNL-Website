@@ -1,0 +1,22 @@
+@using Website.MVC.Model.Interfaces
+@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TemplateBase<Website.MVC.Model.FooterFolderModel>
+<div class="row">
+    @foreach (IFooterMenu footerMenu in Model.FooterMenus)
+    {
+        <div class="three columns">
+            <h3>@footerMenu.Name</h3>
+
+            @if (footerMenu.FooterMenuLinks.Any())
+            {
+                <ul class="@footerMenu.CssClassChildren">
+                    @foreach (IFooterMenuLink footerMenuLink in footerMenu.FooterMenuLinks)
+                    {
+                        <li>
+                            <a href="@footerMenuLink.LinkUrl.Url" class="@footerMenuLink.LinkCssClass">@footerMenuLink.LinkTitle</a>
+                        </li>
+                    }
+                </ul>
+            }
+        </div>
+    }
+</div>

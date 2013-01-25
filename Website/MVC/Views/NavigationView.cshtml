@@ -1,0 +1,37 @@
+@using Website.MVC.Model.Base
+@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TemplateBase<Website.MVC.Model.HomeModel>
+         
+<div class="row">
+    <div class="six columns header">
+        <a href="/" class="homeLogo" title="SUGNL - Sitecore User Group Nederland"><img src="/images/logo.png" alt="SUGNL - Sitecore User Group Nederland" /></a> <!-- Link naar homepage toegevoegd met logo afbeelding -->
+    </div>
+    <div class="six columns">
+        <ul class="nav-bar navigation">
+            @*<li><a href="@Model.Url">@Model.MenuTitle</a></li>*@
+            @foreach (BasePageModel firstLevelChild in Model.Children)
+            {
+                if (!firstLevelChild.HideInMenu)
+                {
+                    if (firstLevelChild.Children == null)
+                    {
+                        <li><a href="@firstLevelChild.Url">@firstLevelChild.MenuTitle</a></li>
+                    }
+                    else
+                    {
+                        <li class="has-flyout">
+                            <a href="@firstLevelChild.Url">@firstLevelChild.MenuTitle</a>
+                            <a href="#" class="flyout-toggle"><span></span></a>
+                            <ul class="flyout">
+                                @foreach (BasePageModel secondLevelChild in firstLevelChild.Children)
+                                {
+                                    <li><a href="@secondLevelChild.Url">@secondLevelChild.MenuTitle</a></li>
+                                }
+
+                            </ul>
+                        </li>
+                    }
+                }
+            }
+        </ul>
+    </div>
+</div>

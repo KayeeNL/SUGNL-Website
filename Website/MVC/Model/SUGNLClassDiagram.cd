@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Website.MVC.Model.Base.BasePageModel">
+    <Position X="5.5" Y="5.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>SAADEAAACAAAAAKANBAEQAQAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>MVC\Model\Base\BasePageModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Website.MVC.Model.Interfaces.IBrowser">
+    <Position X="1.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVC\Model\Interfaces\IBrowser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Website.MVC.Model.Interfaces.ICallToActionBlock" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAAAAAAABAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>MVC\Model\Interfaces\ICallToActionBlock.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Website.MVC.Model.Interfaces.ICallToActionBlocks" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVC\Model\Interfaces\ICallToActionBlocks.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Website.MVC.Model.Interfaces.ICarrouselSlide" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>MVC\Model\Interfaces\ICarrouselSlide.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Website.MVC.Model.Interfaces.ICarrouselSlides" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVC\Model\Interfaces\ICarrouselSlides.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Website.MVC.Model.Interfaces.IContentIntroduction" Collapsed="true">
+    <Position X="3.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVC\Model\Interfaces\IContentIntroduction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Website.MVC.Model.Interfaces.IContentText" Collapsed="true">
+    <Position X="5.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVC\Model\Interfaces\IContentText.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Website.MVC.Model.Interfaces.IContentTitle" Collapsed="true">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVC\Model\Interfaces\IContentTitle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Website.MVC.Model.Interfaces.IDate" Collapsed="true">
+    <Position X="9" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>MVC\Model\Interfaces\IDate.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Website.MVC.Model.Interfaces.IFooterMenu" Collapsed="true">
+    <Position X="10.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAQAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>MVC\Model\Interfaces\IFooterMenu.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Website.MVC.Model.Interfaces.IFooterMenuLink">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAACAAAAAAAAAAAIAA=</HashCode>
+      <FileName>MVC\Model\Interfaces\IFooterMenuLink.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Website.MVC.Model.Interfaces.IGlassBase" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACEAAACAAAAAIAAAAAAAQAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>MVC\Model\Interfaces\IGlassBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Website.MVC.Model.Interfaces.IMediaFolder" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>MVC\Model\Interfaces\IMediaFolder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Website.MVC.Model.Interfaces.IMeetingDetails" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAAAAAAAAAAAAAIQAAAAAgAAAAAAAAAAACAAAAQ=</HashCode>
+      <FileName>MVC\Model\Interfaces\IMeetingDetails.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Website.MVC.Model.Interfaces.IMeetingDownloads" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAIAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVC\Model\Interfaces\IMeetingDownloads.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Website.MVC.Model.Interfaces.IMeetingType" Collapsed="true">
+    <Position X="9" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVC\Model\Interfaces\IMeetingType.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Website.MVC.Model.Interfaces.IMenu" Collapsed="true">
+    <Position X="10.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVC\Model\Interfaces\IMenu.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Website.MVC.Model.Interfaces.IMetaData" Collapsed="true">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>MVC\Model\Interfaces\IMetaData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Website.MVC.Model.Interfaces.IPerson" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAQEAAACAAACAAQAABAAEAAAAAAAAAAAAAAAAAAAk=</HashCode>
+      <FileName>MVC\Model\Interfaces\IPerson.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Website.MVC.Model.Interfaces.ITime" Collapsed="true">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVC\Model\Interfaces\ITime.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

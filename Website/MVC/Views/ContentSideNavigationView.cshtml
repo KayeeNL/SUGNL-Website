@@ -1,0 +1,14 @@
+@using Sitecore
+@using Website.MVC.Model.Base
+@using Website.Utils
+@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TypedTemplate<BasePageModel>
+@{
+    IEnumerable<BasePageModel> children = Model.Parent.IsStartItem() ? Model.Children : Model.Parent.Children;
+}
+<ul class="side-nav">
+    @foreach (BasePageModel basePage in children)
+    {
+        string cssClass = basePage.Id.ToString() == Context.Item.ID.ToGuid().ToString() ? "active" : string.Empty;
+        <li class="@cssClass"><a href="@basePage.Url">@basePage.MenuTitle</a></li>
+    }
+</ul>

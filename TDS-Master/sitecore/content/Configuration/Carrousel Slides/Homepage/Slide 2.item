@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {245FDD13-DEBC-43C8-B356-7AE6DF337437}
+database: master
+path: /sitecore/content/Configuration/Carrousel Slides/Homepage/Slide 2
+parent: {1D17B63D-0A6E-469D-9AC9-6E742C9C627D}
+name: Slide 2
+master: {00000000-0000-0000-0000-000000000000}
+template: {3A20D670-F092-4E7A-AEA4-54E87B3A3FD0}
+templatekey: Carrousel Slide
+
+----version----
+language: nl-NL
+version: 1
+revision: fc6510da-2cf7-4fb8-a345-788c3cc9c7f1
+
+----field----
+field: {ED5F1BF2-F429-4310-867D-3BD91BDCF56C}
+name: Slide Image
+key: slide image
+content-length: 148
+
+<image mediaid="{4C68D7E1-2B63-41AA-915C-CFEFED095143}" mediapath="/SUGNL/Carrousel/1050x450" src="~/media/4C68D7E12B6341AA915CCFEFED095143.ashx" />
+----field----
+field: {908CECDC-6EE0-4CB4-BFA5-EAEC6A4A699E}
+name: Slide Link
+key: slide link
+content-length: 155
+
+<link querystring="" linktype="internal" id="{17E82E60-40A4-4F4C-8DA3-698FEE794E91}" url="/Home/Archief/Pre Meeting 30 augustus 2012 Sitecore" target="" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20121102T210600
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fc6510da-2cf7-4fb8-a345-788c3cc9c7f1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20121210T212619:634907715791521357
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

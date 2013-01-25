@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {89E24F62-A237-47C2-B895-8D8008DACC48}
+database: master
+path: /sitecore/media library/SUGNL/Meetings/Meeting 10 juli 2013 Suneco/Photos
+parent: {4B913413-D48C-40E5-81B8-8D760BD55A8C}
+name: Photos
+master: {9491447E-35D0-4E4C-80AB-9A0A554F7E47}
+template: {FE5DD826-48C6-436D-B87A-7C4210C7413B}
+templatekey: Media folder
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 36
+
+Applications/16x16/photo_scenery.png
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 0b239c0e-49e8-4250-9814-8f31608f55bd
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130112T222020
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0b239c0e-49e8-4250-9814-8f31608f55bd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130112T222020:634936260207054329
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

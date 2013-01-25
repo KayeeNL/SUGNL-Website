@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {03EB356D-1F4E-4E30-B769-092930EAF32C}
+database: master
+path: /sitecore/templates/User Defined/SUGNL/Reference/Classification/Classification Type Folder/__Standard Values
+parent: {FAC1AFA1-DD47-489E-A3AD-5E07333C4AEB}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {FAC1AFA1-DD47-489E-A3AD-5E07333C4AEB}
+templatekey: Classification Type Folder
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{FAC1AFA1-DD47-489E-A3AD-5E07333C4AEB}|{DE9FE93A-8037-4FE6-B5B5-1FB7BE0063F4}
+----version----
+language: en
+version: 1
+revision: 8e69dd11-9e58-4552-9469-6c073cf3740b
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20121030T224200
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8e69dd11-9e58-4552-9469-6c073cf3740b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20121030T224306:634872337865172253
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

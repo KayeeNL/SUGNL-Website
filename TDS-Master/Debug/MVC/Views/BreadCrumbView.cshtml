@@ -1,0 +1,34 @@
+@using Website.MVC.Model.Base
+@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TypedTemplate<BasePageModel>
+@{
+    var pages = new List<BasePageModel>();
+    BasePageModel current = Model;
+    while (current.Parent != null)
+    {
+        pages.Add(current);
+        if (current.Name.ToLowerInvariant() == "home")
+        {
+            break;
+        }
+        else
+        {
+            current = current.Parent;
+        }
+    }
+    pages.Reverse();
+}
+              
+<div class="breadcrumb-container">
+    <div class="row">
+        <div class="twelve columns">
+            <ul class="breadcrumbs">
+                
+                @foreach (BasePageModel page in pages)
+                {
+                    string cssClass = page.Id.ToString().ToLowerInvariant() == Model.Id.ToString().ToLowerInvariant() ? "current" : string.Empty;
+                    <li class="@cssClass"><a href="@page.Url">@page.MenuTitle</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>

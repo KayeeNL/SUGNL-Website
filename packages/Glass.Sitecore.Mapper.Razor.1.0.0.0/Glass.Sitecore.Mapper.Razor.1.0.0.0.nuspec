@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Glass.Sitecore.Mapper.Razor</id>
+    <version>1.0.0.0</version>
+    <title>Glass.Sitecore.Mapper.Razor</title>
+    <authors>Michael Edwards</authors>
+    <owners>Michael Edwards</owners>
+    <licenseUrl>https://github.com/Glass-lu/Glass.Sitecore.Mapper/blob/master/License.txt</licenseUrl>
+    <projectUrl>http://www.glass.lu/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Integration for Glass.Sitecore.Mapper and Razor. Allows a developer to create Razor views from within Sitecore that can be used like XSLTs and Sublayouts. For help or support join the Glass.Sitecore.Mapper Google Group http://bit.ly/xbRLr9.</description>
+    <releaseNotes>(Pull 1) Various improvements by Tom Dudfield, includes page editor improvements, file system watcher improvements.
+Improved error messages displayed to the user.</releaseNotes>
+    <copyright>Copyright 2011 Michael Edwards</copyright>
+    <language>en-GB</language>
+    <tags>sitecore glass mapper object razor</tags>
+    <dependencies>
+      <dependency id="Glass.Sitecore.Mapper" version="2.0.11.0" />
+      <dependency id="RazorEngine" version="3.0.8" />
+    </dependencies>
+    <references>
+      <reference file="Glass.Sitecore.Mapper.Razor.dll" />
+    </references>
+  </metadata>
+</package>

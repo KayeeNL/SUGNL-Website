@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {995A8E8E-DF30-491A-8446-8B625CD7DC4A}
+database: master
+path: /sitecore/content/Configuration/Footer/Archief/Meeting 2
+parent: {A78263A6-D151-414E-A8E6-DBC1769313BB}
+name: Meeting 2
+master: {00000000-0000-0000-0000-000000000000}
+template: {E92E4FED-41A1-4C3C-A5BF-89D50C23454E}
+templatekey: Footer Menu Link
+
+----version----
+language: nl-NL
+version: 1
+revision: 368964ce-ab48-4411-bb72-6557632c4b7b
+
+----field----
+field: {DD70950C-CBB0-4920-B270-193588B3FAE1}
+name: Link Title
+key: link title
+content-length: 28
+
+Meeting 31 oktober 2012 NCIM
+----field----
+field: {6B00D1A8-05D6-4FB9-8B4F-72345DA4AA50}
+name: Link Url
+key: link url
+content-length: 151
+
+<link linktype="internal" url="/Home/Archief/Meeting 31 oktober 2012 NCIM.aspx" querystring="" target="" id="{B7BF3ABF-81FA-4FF9-907A-ECA4E3589946}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20121229T225800
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+368964ce-ab48-4411-bb72-6557632c4b7b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20121229T225905:634924187455988611
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

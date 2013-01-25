@@ -1,0 +1,21 @@
+@using Sitecore
+@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TypedTemplate<Website.MVC.Model.ContentModel>
+<div class="row detail">
+    <div class="twelve columns">
+        <h2>@Editable(x => x.ContentTitle)</h2>
+    </div>
+    <div class="twelve columns">
+        <p class="intro">@Editable(x => x.ContentIntroduction)</p>
+    </div>
+    <div class="twelve columns genericContent">
+        @if (Context.PageMode.IsPageEditor)
+        {
+            Editable(x => x.ContentText);
+        }
+        else
+        {
+            @Raw(Model.ContentText)
+        }
+
+    </div>
+</div>

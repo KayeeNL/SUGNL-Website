@@ -1,0 +1,24 @@
+@using Website.MVC.Model
+@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TypedTemplate<Website.MVC.Model.AgendaOverviewModel>
+              
+<div class="overview overviewList"> 
+    @foreach (AgendaModel agendaItem in Model.ChildrenAsAgendaItems)
+    {
+        <div class="row">
+            <div class="three columns"> 
+                <div class="dateBlock" style="background: url('/images/bg_agendaItem1.jpg') no-repeat;">
+                    <span class="date">@agendaItem.Date.ToString("dd")</span><br />
+                    <span class="month">@agendaItem.Date.ToString("MMMM")</span> 
+                    <span class="year">@agendaItem.Date.ToString("yyyy")</span>
+                </div>
+            </div>
+            <div class="nine columns contentBlock">
+                <a href="@agendaItem.Url">
+                    <h2>@agendaItem.ContentTitle</h2>
+                </a>
+                <p><a href="#">@agendaItem.MeetingType.Name</a> - @Raw(agendaItem.ContentIntroduction)</p>
+                <div class="linksContainer"><a href="@agendaItem.Url" class="leesMeer">Lees meer</a></div>
+            </div>
+        </div>
+    }
+</div>

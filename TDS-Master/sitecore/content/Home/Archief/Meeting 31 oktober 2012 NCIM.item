@@ -1,0 +1,175 @@
+----item----
+version: 1
+id: {B7BF3ABF-81FA-4FF9-907A-ECA4E3589946}
+database: master
+path: /sitecore/content/Home/Archief/Meeting 31 oktober 2012 NCIM
+parent: {BA01B6B5-BF68-46DE-900F-BCE1227E72B0}
+name: Meeting 31 oktober 2012 NCIM
+master: {00000000-0000-0000-0000-000000000000}
+template: {96AF9595-38CA-4A58-846D-B66F7D393F53}
+templatekey: Meeting
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: nl-NL
+version: 1
+revision: f5f364ae-a0a3-4c25-91be-d3c66c7bb3cc
+
+----field----
+field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
+name: Browser Title
+key: browser title
+content-length: 28
+
+Meeting 31 oktober 2012 NCIM
+----field----
+field: {B22197A6-5868-42DF-9BA5-0C19DA817C30}
+name: Menu Title
+key: menu title
+content-length: 28
+
+Meeting 31 oktober 2012 NCIM
+----field----
+field: {B1C8671B-97FB-41BC-B6B5-0B9D25A1360E}
+name: Content Title
+key: content title
+content-length: 28
+
+Meeting 31 oktober 2012 NCIM
+----field----
+field: {9196F290-823E-45D0-BDEC-FB3336099611}
+name: Content SubTitle
+key: content subtitle
+content-length: 28
+
+SUGNL, Item Buckets en meer!
+----field----
+field: {B43063B2-C0E7-4401-AAE3-70AE610AABF4}
+name: Date
+key: date
+content-length: 15
+
+20121031T000000
+----field----
+field: {36CD076D-0445-4C59-ABCD-AC0A5D46DC3E}
+name: Start Time
+key: start time
+content-length: 5
+
+18:00
+----field----
+field: {33AA52F7-F6F5-4AC4-A4D4-612D8CB851DE}
+name: End Time
+key: end time
+content-length: 5
+
+22:00
+----field----
+field: {958B7575-FAB8-4F92-B402-F5BD0B0A6CC6}
+name: Meeting Type
+key: meeting type
+content-length: 38
+
+{BA03F3D8-5A19-4B24-9255-211C85F6A7BF}
+----field----
+field: {9DCDB4AA-4570-4FFF-8229-3347F7A60A4B}
+name: Location
+key: location
+content-length: 73
+
+<strong>NCIM Groep</strong><br />
+Overgoo 11<br />
+2266 JZ Leidschendam
+----field----
+field: {9C882C53-1A51-4F47-B742-5DDEE23B1803}
+name: Topics
+key: topics
+content-length: 1118
+
+<p>Van harte welkom bij de eerste bijeenkomst van de Sitecore User Group Nederland (SUGNL). Om de 6 &aacute; 8 weken organiseren wij een event voor alle typen Sitecore gebruikers: van Developer tot Content Manager of Marketeer.</p>
+<p>Tijdens deze bijeenkomst maak je kennis met SUGNL en ontdek je wat SUGNL voor jou kan betekenen. Wil je zelf een actieve bijdrage leveren? Dat kan ook!</p>
+<p>Programma:</p>
+<p>&nbsp;&nbsp;&nbsp; 18:00 Ontvangst met een heerlijke eenvoudige maaltijd<br />
+&nbsp;&nbsp;&nbsp; 19:00 Welkomstwoord door NCIM<br />
+&nbsp;&nbsp;&nbsp; 19:05 Introductie over SUGNL<br />
+&nbsp;&nbsp;&nbsp; 19:30 Korte demo over Sitecore Item Buckets<br />
+&nbsp;&nbsp;&nbsp; 20:00 Bespreken mogelijke onderwerpen/thema's<br />
+&nbsp;&nbsp;&nbsp; 21:00 Gelegenheid om gezellig na te praten en ervaringen uit te wisselen onder het genot van een borrel.</p>
+<p>Binnenkort vind je meer informatie over SUGNL op onze website, maar graag ontmoeten we je 31 oktober al tijdens de eerste SUGNL bijeenkomst. Meld je daarom snel aan!</p>
+<p>Volg ons op Twitter: @sug_nl of praat mee en gebruik #sugnl.</p>
+----field----
+field: {6DD7F51B-5F96-4E0F-87CF-B3E2A0A8DFFF}
+name: Speakers
+key: speakers
+content-length: 77
+
+{501037D2-AC3A-4C34-9D72-30E85A5F07C3}|{8B7ED3DA-2534-4E85-A08C-2BA113DDA3B2}
+----field----
+field: {88EB4369-1ADE-4652-862A-D9C9632BFA99}
+name: Organizer Logo
+key: organizer logo
+content-length: 177
+
+<image mediaid="{C1C77AF2-2A8F-48E6-A178-FF8C0415AB23}" mediapath="/SUGNL/Meetings/Meeting 31 oktober 2012 NCIM/ncimgroep" src="~/media/C1C77AF22A8F48E6A178FF8C0415AB23.ashx" />
+----field----
+field: {867B8B66-990C-446D-87CC-A3B5FEEAC86D}
+name: Attending Title
+key: attending title
+content-length: 10
+
+Aanmelden?
+----field----
+field: {C2873975-B25C-4ABC-A21E-D420D9994AB6}
+name: Attending Intro
+key: attending intro
+content-length: 87
+
+U kunt zich helaas niet meer aanmelden, omdat dit evenement reeds plaats heeft gevonden
+----field----
+field: {79DB5448-FB59-4D29-9B6B-AE255198D6F6}
+name: Downloads Folder
+key: downloads folder
+content-length: 186
+
+<link linktype="internal" url="/sitecore/media library/SUGNL/Meetings/Meeting 31 oktober 2012 NCIM/Downloads.aspx" querystring="" target="" id="{B0825616-7DA2-4CC4-859A-3254FC98DCC4}" />
+----field----
+field: {E0777471-F22B-44CB-A132-2D3B00610784}
+name: Photos Folder
+key: photos folder
+content-length: 183
+
+<link linktype="internal" url="/sitecore/media library/SUGNL/Meetings/Meeting 31 oktober 2012 NCIM/Photos.aspx" querystring="" target="" id="{92A228AC-DE10-4CB8-A84C-080E2FCE41CF}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20121208T225300
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f5f364ae-a0a3-4c25-91be-d3c66c7bb3cc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130116T213651:634939690114545579
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

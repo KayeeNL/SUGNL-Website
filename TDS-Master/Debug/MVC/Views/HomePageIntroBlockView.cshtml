@@ -1,0 +1,10 @@
+@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TypedTemplate<Website.MVC.Model.HomeModel>
+<div class="row">
+    <div class="twelve columns introBlock">
+        <h1>@Editable(x => x.ContentTitle)</h1>
+        @if (Sitecore.Context.PageMode.IsPageEditor || !string.IsNullOrEmpty(Model.ContentIntroduction))
+        {
+            <p class="intro">@Editable(x => x.ContentIntroduction)</p>
+        }
+    </div>
+</div>

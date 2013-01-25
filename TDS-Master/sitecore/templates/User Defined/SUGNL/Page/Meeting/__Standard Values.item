@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {FBBC8854-EF6A-4E29-BFEA-1CA68D5766C2}
+database: master
+path: /sitecore/templates/User Defined/SUGNL/Page/Meeting/__Standard Values
+parent: {96AF9595-38CA-4A58-846D-B66F7D393F53}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {96AF9595-38CA-4A58-846D-B66F7D393F53}
+templatekey: Meeting
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 36
+
+Applications/16x16/document_time.png
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 683
+
+<r  xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{53A093BD-58FF-423A-AED8-6E6CB5F22294}"><r id="{E574478D-7C61-4543-B5C3-653215CA8384}" ph="header" uid="{C0914FFF-B055-430B-8993-303516B3EF70}" /><r id="{D83B739E-EFB4-40EA-A61B-882CBA6C05A7}" ph="top-bottom" uid="{F0B6EDF6-9F13-46AD-BD1A-01A923A2EC7A}" /><r id="{C1B83008-521D-40EF-88D3-F9368AC59C5D}" ph="content" uid="{D274198D-F7DB-460A-B74D-20595BC88005}" /><r id="{25327FCE-F96C-4C93-9446-C01E27755038}" ph="content" uid="{A41A2776-B0FF-4D8B-BBCF-1E26871312D1}" /><r id="{4E3B268C-1C92-40D7-83F0-43D2D12973E0}" ph="footer" uid="{648623C6-29C9-4C2C-9E04-6D4CC8BAB430}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 2009ccbf-fa3e-41ce-9d78-ae8b042c3c21
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20121027T222600
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2009ccbf-fa3e-41ce-9d78-ae8b042c3c21
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20121229T224513:634924179130732434
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

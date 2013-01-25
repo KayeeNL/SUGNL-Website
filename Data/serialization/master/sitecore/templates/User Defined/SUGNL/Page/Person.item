@@ -1,0 +1,119 @@
+----item----
+version: 1
+id: {47C2AA83-45AE-411A-9A53-9EE52BAB6741}
+database: master
+path: /sitecore/templates/User Defined/SUGNL/Page/Person
+parent: {308C4CAC-090E-4E8D-AEA2-0300ADA6C9D1}
+name: Person
+master: {00000000-0000-0000-0000-000000000000}
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
+
+----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 311
+
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}|{2FAA45C3-4E20-42C2-9397-11B7EF08FD72}|{AE3DB946-446E-4F11-A20C-99F69DDCE578}|{39202FF7-F311-482A-BCCD-427D749648DC}|{93E04915-E3DA-4B92-8E0D-B6468B6C3E29}|{C84AD0AB-0D52-4778-AC7E-C8A6BCCD0E52}|{E007D70B-4DA2-4148-B231-1786CDCD894E}|{050AEAA7-10D0-4CBF-AD16-E666EC9B0B6A}
+----field----
+field: {F7D48A55-2158-4F02-9356-756654404F73}
+name: __Standard values
+key: __standard values
+content-length: 38
+
+{436A0889-0E52-405E-8335-3AFB3440F015}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 27
+
+People/16x16/user1_edit.png
+----version----
+language: en
+version: 1
+revision: f1379e7e-5a55-48f7-804c-ba7d95462186
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20121102T221843
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f1379e7e-5a55-48f7-804c-ba7d95462186
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20121102T222912:634874921522048829
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: nl-NL
+version: 1
+revision: 9c3de392-a1e1-4734-b6bd-f68efba35078
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 21
+
+Persoon detail pagina
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20121102T221800
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9c3de392-a1e1-4734-b6bd-f68efba35078
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130112T214311:634936237917629447
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

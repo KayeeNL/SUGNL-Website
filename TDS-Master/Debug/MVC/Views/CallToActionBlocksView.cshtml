@@ -1,0 +1,27 @@
+@using System.Collections.Specialized
+@using Website.MVC.Model.Interfaces
+@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TemplateBase<Website.MVC.Model.Interfaces.ICallToActionBlocks>
+<div class="row">
+    @foreach (ICallToActionBlock callToActionBlock in Model.CallToActionBlocks)
+    {
+        <div class="four columns block">
+            @{
+                string h2Class = string.Format("heading{0}", callToActionBlock.CallToActionTitle);
+            }
+            <h2 class="@h2Class">@GlassHtml.Editable(callToActionBlock, x => x.CallToActionTitle)   </h2>
+            @if (callToActionBlock.CallToActionLink != null)
+            {
+                <a href="@callToActionBlock.CallToActionLink.Url">
+                    @GlassHtml.RenderImage(callToActionBlock.CallToActionImage)
+                    @*@GlassHtml.Editable(callToActionBlock, x => x.CallToActionImage, GlassHtml.RenderImage(callToActionBlock.CallToActionImage) )*@
+                </a>
+            }
+            else
+            {
+                @GlassHtml.Editable(callToActionBlock, x => x.CallToActionImage)
+            }
+
+            @GlassHtml.RenderLink(callToActionBlock.CallToActionLink, new NameValueCollection {{"class", "leesMeer"}, {"title", callToActionBlock.CallToActionTitle}}, "Lees meer...")
+        </div>
+    }
+</div>
