@@ -1,7 +1,7 @@
 @using System.Collections.Specialized
 @using Website.MVC.Model
 @using Website.Utils
-@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TemplateBase<AgendaModel>
+@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TemplateBase<Website.MVC.Model.AgendaModel>
 <div class="row detail">
     <div class="twelve columns">
         @if (!string.IsNullOrEmpty(Model.ContentSubTitle))
@@ -30,7 +30,7 @@
 
     <div class="five columns">
         <p>@Raw(Model.ContentIntroduction)</p>
-        @GlassHtml.RenderLink(Model.AttendingUrl, new NameValueCollection { { "class", "aanmeldButton" }, { "title", "Meld je nu aan" } }, "Meld je nu aan")
+        @GlassHtml.RenderLink(Model.AttendingUrl, new NameValueCollection {{"class", "aanmeldButton"}, {"title", "Meld je nu aan"}}, "Meld je nu aan")
 
     </div>
     @if (!string.IsNullOrEmpty(Model.OrganizerLogo.Src))
@@ -117,7 +117,7 @@
                 <div class="genericContent">
                     <div class="row ">
                         <div class="three columns">
-                            @GlassHtml.RenderLink(Model.AttendingUrl, new NameValueCollection { { "class", "aanmeldButton" }, { "title", "Meld je nu aan" } }, "Meld je nu aan")
+                            @GlassHtml.RenderLink(Model.AttendingUrl, new NameValueCollection {{"class", "aanmeldButton"}, {"title", "Meld je nu aan"}}, "Meld je nu aan")
                         </div>
                         <div class="nine columns">
                             <h3><a href="#">@Editable(x => x.AttendingTitle)</a></h3>
@@ -132,16 +132,16 @@
                 MediaFolderModel mediaFolderModel = SitecoreUtil.GetTypedMediaFolderModel(Model.DownloadsFolder.TargetId);
                 if (mediaFolderModel.Files.Any())
                 {
-                <li id="downloadsTab">
-                    <ul>
-                        @foreach (MediaFileModel mediafile in mediaFolderModel.Files)
-                        {
-                            <li class="@mediafile.Extension"><a href="@mediafile.MediaPath">@mediafile.Name</a></li>
-                        }
+                    <li id="downloadsTab">
+                        <ul>
+                            @foreach (MediaFileModel mediafile in mediaFolderModel.Files)
+                            {
+                                <li class="@mediafile.Extension"><a href="@mediafile.MediaPath">@mediafile.Name</a></li>
+                            }
 
-                    </ul>
+                        </ul>
 
-                </li>
+                    </li>
                 }
             }
         </ul>
@@ -152,21 +152,21 @@
     MediaFolderModel mediaFolderModel = SitecoreUtil.GetTypedMediaFolderModel(Model.PhotosFolder.TargetId);
     if (mediaFolderModel.Files.Any())
     {
-    <div class="row">
-        <div class="twelve columns">
-            <h3>Foto's</h3>
-        </div>
         <div class="row">
-            @foreach (MediaFileModel mediaFileModel in mediaFolderModel.Files)
-            {
-                <div class="three columns">
-                    <a class="fancybox" rel="gallery" href="@mediaFileModel.MediaPath">
-                        <img alt="Alternate Text" src="@mediaFileModel.MediaThumbPath">
-                    </a>
+            <div class="twelve columns">
+                <h3>Foto's</h3>
+            </div>
+            <div class="row">
+                @foreach (MediaFileModel mediaFileModel in mediaFolderModel.Files)
+                {
+                    <div class="three columns">
+                        <a class="fancybox" rel="gallery" href="@mediaFileModel.MediaPath">
+                            <img alt="Alternate Text" src="@mediaFileModel.MediaThumbPath">
+                        </a>
 
-                </div>
-            }
+                    </div>
+                }
+            </div>
         </div>
-    </div>
     }
 }

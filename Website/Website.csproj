@@ -218,9 +218,7 @@
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="layouts\Razor\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="MVC\Views\HomePageIntroBlockView.cshtml" />
   </ItemGroup>
