@@ -8,8 +8,11 @@ This isn't entirely finished yet! So expect more updates soon!
 ================================
 Contributors:
 ================================
-Design and Front-end development: Estate (http://www.estate.nl)
-Technical implementatation:       Robbert Hock - Kayee, Internet & Software Oplossingen (http://www.kayee.nl) - Twitter: @kayeeNL
+Design and Front-end development:
+Estate (http://www.estate.nl)
+
+Technical implementatation:
+Robbert Hock - Kayee, Internet & Software Oplossingen (http://www.kayee.nl) - Twitter: @kayeeNL
 
 ================================
 
