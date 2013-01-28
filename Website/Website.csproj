@@ -294,6 +294,9 @@
   <ItemGroup>
     <Content Include="MVC\Views\MetaDataView.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="layouts\Razor\TestCarouselView.cshtml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

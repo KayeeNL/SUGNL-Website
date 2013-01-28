@@ -1,5 +1,6 @@
-﻿@inherits System.Web.Mvc.WebViewPage
-@using Sitecore.Mvc;
+﻿@inherits Glass.Sitecore.Mapper.Web.Mvc.GlassView<Website.MVC.Model.Base.BasePageModel>
+@using Sitecore.Mvc
+
 
 <!DOCTYPE html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
@@ -39,7 +40,7 @@
 <!-- ================================================== -->
 
 <head runat="server">
-    @*<title>@{string.Format("{0} - Sitecore User Group Nederland (SUGNL)", Model.BrowserTitle);}</title>*@
+    <title>@{ string.Format("{0} - Sitecore User Group Nederland (SUGNL)", Model.BrowserTitle); }</title>
     <meta charset="utf-8" />
     <!-- Set the viewport width to device width for mobile -->
     <meta name="viewport" content="width=device-width" />
