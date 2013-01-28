@@ -275,6 +275,11 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Archief\Meeting 23 januari 2013 eFocus.item">
+      <Icon>/temp/IconCache/Applications/16x16/document_time.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
     <SitecoreItem Include="sitecore\content\Home\Archief\Meeting 31 oktober 2012 NCIM.item">
       <Icon>/temp/IconCache/Applications/16x16/document_time.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
@@ -672,6 +677,31 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 13 maart 2013 Estate\Videos.item">
       <Icon>/~/icon/Multimedia/16x16/new_video.png.aspx</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 20 november 2013 Caesar Experts.item">
+      <Icon>/temp/IconCache/Multimedia/16x16/open_image_h.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 20 november 2013 Caesar Experts\caesarexperts.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/7848886476724298880E0D73882385ED.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 20 november 2013 Caesar Experts\Downloads.item">
+      <Icon>/temp/IconCache/Business/16x16/presentation_chart.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 20 november 2013 Caesar Experts\Photos.item">
+      <Icon>/temp/IconCache/Applications/16x16/photo_scenery.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 20 november 2013 Caesar Experts\Videos.item">
+      <Icon>/temp/IconCache/Multimedia/16x16/new_video.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
