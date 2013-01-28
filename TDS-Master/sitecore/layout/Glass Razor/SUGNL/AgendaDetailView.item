@@ -1,30 +1,30 @@
 ----item----
 version: 1
-id: {0BF72B44-2A06-42F4-9D60-44E16A8F4E27}
+id: {25327FCE-F96C-4C93-9446-C01E27755038}
 database: master
-path: /sitecore/layout/Glass Razor/SUGNL_oud/ContentDetailContainerView
+path: /sitecore/layout/Glass Razor/SUGNL/AgendaDetailView
 parent: {FC1CCE88-6982-4F50-96AC-638A9B95214D}
-name: ContentDetailContainerView
+name: AgendaDetailView
 master: {00000000-0000-0000-0000-000000000000}
-template: {7B10C01D-B0DF-4626-BE34-F48E38828FB7}
-templatekey: GlassTypedRazor
+template: {9B162562-C999-45BF-B688-1C65D0EBCAAD}
+templatekey: GlassBehindRazor
 
 ----field----
-field: {EB82C2E2-62A6-41EC-A24D-D3897B7F1F8D}
+field: {ED0BF240-10A2-4CC9-9EC2-7FC003C57723}
 name: Name
 key: name
-content-length: 44
+content-length: 34
 
-/MVC/Views/ContentDetailContainerView.cshtml
+/MVC/Views/AgendaDetailView.cshtml
 ----field----
-field: {71AC1C5B-B99C-4F6C-B2EC-5B397FB9DC26}
+field: {7C26A665-40B4-43A3-87B5-D431A4CFEF67}
 name: Type
 key: type
-content-length: 36
+content-length: 45
 
-Website.MVC.Model.Base.BasePageModel
+Website.MVC.Views.Codebehind.AgendaDetailView
 ----field----
-field: {9FE53A24-17A5-40C7-9638-0CDC67644CE1}
+field: {5FB9B658-1B86-417E-9F15-123659D65859}
 name: Assembly
 key: assembly
 content-length: 13
@@ -33,7 +33,7 @@ SUGNL.Website
 ----version----
 language: en
 version: 1
-revision: 6e41e700-d6ef-4072-ab15-1ba443bdd17f
+revision: e9c57466-e59d-4338-8b1c-0175bc77ce83
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,21 +41,21 @@ name: __Created
 key: __created
 content-length: 15
 
-20121219T232045
+20121219T220800
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-6e41e700-d6ef-4072-ab15-1ba443bdd17f
+e9c57466-e59d-4338-8b1c-0175bc77ce83
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20121219T232045:634915560453544131
+20130122T222628:634944903889260475
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

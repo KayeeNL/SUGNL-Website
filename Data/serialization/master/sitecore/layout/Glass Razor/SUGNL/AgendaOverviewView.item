@@ -1,9 +1,9 @@
 ----item----
 version: 1
-id: {68501B87-F9FA-4DE5-B97F-421A79C9F9FC}
+id: {3B84058C-46E2-4F5F-8353-E678099B680F}
 database: master
 path: /sitecore/layout/Glass Razor/SUGNL/AgendaOverviewView
-parent: {D31D5921-F61B-4A9A-B4A7-18A7C7764E52}
+parent: {FC1CCE88-6982-4F50-96AC-638A9B95214D}
 name: AgendaOverviewView
 master: {00000000-0000-0000-0000-000000000000}
 template: {7B10C01D-B0DF-4626-BE34-F48E38828FB7}
@@ -33,7 +33,7 @@ SUGNL.Website
 ----version----
 language: en
 version: 1
-revision: ec01eb53-aeb0-4ac7-8aa0-666c05dd2ae9
+revision: 049769da-7058-41b3-86a1-82c5dc35a0b7
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,21 +41,21 @@ name: __Created
 key: __created
 content-length: 15
 
-20130120T201155
+20121217T203300
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-ec01eb53-aeb0-4ac7-8aa0-666c05dd2ae9
+049769da-7058-41b3-86a1-82c5dc35a0b7
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130120T201155:634943095154407543
+20121217T212947:634913765870987830
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

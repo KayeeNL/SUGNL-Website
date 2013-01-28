@@ -6,10 +6,6 @@ Data/diagnostics/readme.txt
 Data/license.xml
 Data/logs/
 Data/packages/readme.txt
-Data/packages/SUGNL Architectuur-1.0.0.0.zip
-Data/packages/SUGNL Architectuur.xml
-Data/packages/SUGNL Content-1.0.0.0.zip
-Data/packages/SUGNL Content.xml
 Data/viewstate/
 Data/webdav.lic
 Databases/
@@ -80,3 +76,7 @@ TDS-Master/Debug/
 TDS-Master/Debug
 TDS-Master/Debug/bin/SUGNL.Website.dll
 TDS-Master/Debug/bin/SUGNL.Website.pdb
+Data/diagnostics/
+Data/packages/
+TDS-Master/Debug/
+TDS-Master/Debug

@@ -3,7 +3,7 @@ version: 1
 id: {4E3B268C-1C92-40D7-83F0-43D2D12973E0}
 database: master
 path: /sitecore/layout/Glass Razor/SUGNL/FooterView
-parent: {D31D5921-F61B-4A9A-B4A7-18A7C7764E52}
+parent: {FC1CCE88-6982-4F50-96AC-638A9B95214D}
 name: FooterView
 master: {00000000-0000-0000-0000-000000000000}
 template: {9B162562-C999-45BF-B688-1C65D0EBCAAD}
@@ -33,7 +33,7 @@ SUGNL.Website
 ----version----
 language: en
 version: 1
-revision: ae2e7b5d-cb49-4cf6-9662-8d1152c5a97c
+revision: 1f8d986b-1d77-4894-91ad-0dfa1f3d6498
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ae2e7b5d-cb49-4cf6-9662-8d1152c5a97c
+1f8d986b-1d77-4894-91ad-0dfa1f3d6498
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20121229T222109:634924164699016987
+20130128T124433:634949738732614648
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

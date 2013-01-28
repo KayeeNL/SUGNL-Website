@@ -3,7 +3,7 @@ version: 1
 id: {E574478D-7C61-4543-B5C3-653215CA8384}
 database: master
 path: /sitecore/layout/Glass Razor/SUGNL/NavigationView
-parent: {D31D5921-F61B-4A9A-B4A7-18A7C7764E52}
+parent: {FC1CCE88-6982-4F50-96AC-638A9B95214D}
 name: NavigationView
 master: {00000000-0000-0000-0000-000000000000}
 template: {9B162562-C999-45BF-B688-1C65D0EBCAAD}
@@ -33,7 +33,7 @@ SUGNL.Website
 ----version----
 language: en
 version: 1
-revision: cda457e0-65c7-4a0b-93c8-2204b3919f75
+revision: 8c52dabf-e9f0-425a-a7ba-ccef5d4be000
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-cda457e0-65c7-4a0b-93c8-2204b3919f75
+8c52dabf-e9f0-425a-a7ba-ccef5d4be000
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20121215T201335:634911992152978578
+20130128T124444:634949738842675066
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

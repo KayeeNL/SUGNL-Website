@@ -1,9 +1,9 @@
 ----item----
 version: 1
-id: {68C267A5-A992-41FA-8C13-B5845F0CA4FA}
+id: {6DF18810-BADC-4A7B-BF75-8B2624466E1D}
 database: master
 path: /sitecore/layout/Glass Razor/SUGNL/ContentSideNavigationView
-parent: {D31D5921-F61B-4A9A-B4A7-18A7C7764E52}
+parent: {FC1CCE88-6982-4F50-96AC-638A9B95214D}
 name: ContentSideNavigationView
 master: {00000000-0000-0000-0000-000000000000}
 template: {7B10C01D-B0DF-4626-BE34-F48E38828FB7}
@@ -33,7 +33,7 @@ SUGNL.Website
 ----version----
 language: en
 version: 1
-revision: 29ee0379-9263-4c43-9761-afb4f0d629c1
+revision: fe892b69-6556-4ba8-9dc9-b5076f408c8e
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,21 +41,21 @@ name: __Created
 key: __created
 content-length: 15
 
-20130120T202635
+20121219T232909
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-29ee0379-9263-4c43-9761-afb4f0d629c1
+fe892b69-6556-4ba8-9dc9-b5076f408c8e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130120T202635:634943103956922968
+20121219T232909:634915565493402394
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
