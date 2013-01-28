@@ -1,6 +1,6 @@
 @using System.Collections.Specialized
 @using Website.MVC.Model.Interfaces
-@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TemplateBase<Website.MVC.Model.Interfaces.ICallToActionBlocks>
+@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TemplateBase<ICallToActionBlocks>
 <div class="row">
     @foreach (ICallToActionBlock callToActionBlock in Model.CallToActionBlocks)
     {

@@ -6,7 +6,7 @@
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!-->
-    <html class="no-js" lang="en">
+<html class="no-js" lang="en">
 <!--<![endif]-->
 
 <!-- ================================================== -->
@@ -38,12 +38,10 @@
 <!-- ================================================== -->
 
 <head runat="server">
+    <title><%= BasePageModel.BrowserTitle %> - Sitecore User Group Nederland (SUGNL)</title>
     <meta charset="utf-8" />
-
     <!-- Set the viewport width to device width for mobile -->
     <meta name="viewport" content="width=device-width" />
-
-    <title><%= BasePageModel.BrowserTitle %> - Sitecore User Group Nederland (SUGNL)</title>
 
     <!-- Included CSS Files (Uncompressed) -->
     <!--<link rel="stylesheet" href="stylesheets/foundation.css">-->
@@ -204,7 +202,7 @@
         <!-- Initialize JS Plugins -->
         <script src="/javascripts/app.js"> </script>
         <script type="text/javascript">
-            $(document).ready(function() {
+            $(document).ready(function () {
                 $(".fancybox").fancybox();
             });
         </script>
