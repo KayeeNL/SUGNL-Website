@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {ECFA0551-4586-4625-8F91-902C5F7F5AF4}
+database: master
+path: /sitecore/content/Configuration/Footer/Agenda/Borrel mei 2013
+parent: {6AD814BC-676C-46AE-8ADD-E3C9D03A14E5}
+name: Borrel mei 2013
+master: {00000000-0000-0000-0000-000000000000}
+template: {E92E4FED-41A1-4C3C-A5BF-89D50C23454E}
+templatekey: Footer Menu Link
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----version----
+language: nl-NL
+version: 1
+revision: f6a79a6d-5380-4eaf-b178-6cf1c44a2f52
+
+----field----
+field: {DD70950C-CBB0-4920-B270-193588B3FAE1}
+name: Link Title
+key: link title
+content-length: 20
+
+Borrel - 16 Mei 2013
+----field----
+field: {6B00D1A8-05D6-4FB9-8B4F-72345DA4AA50}
+name: Link Url
+key: link url
+content-length: 140
+
+<link linktype="internal" url="/Home/Agenda/Borrel 16 Mei 2013.aspx" querystring="" target="" id="{6B35C67A-E46B-4DB4-8E83-212EA3BE39F9}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130128T102000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f6a79a6d-5380-4eaf-b178-6cf1c44a2f52
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130128T102041:634949652412514146
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

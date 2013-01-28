@@ -110,17 +110,27 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Configuration\Footer\Agenda\Meeting 1.item">
+    <SitecoreItem Include="sitecore\content\Configuration\Footer\Agenda\Borrel mei 2013.item">
       <Icon>/temp/IconCache/Business/16x16/paperclip.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Configuration\Footer\Agenda\Meeting 2.item">
+    <SitecoreItem Include="sitecore\content\Configuration\Footer\Agenda\Caesar meeting.item">
       <Icon>/temp/IconCache/Business/16x16/paperclip.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Configuration\Footer\Agenda\Meeting 3.item">
+    <SitecoreItem Include="sitecore\content\Configuration\Footer\Agenda\Estate meeting.item">
+      <Icon>/temp/IconCache/Business/16x16/paperclip.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Configuration\Footer\Agenda\Partech meeting.item">
+      <Icon>/temp/IconCache/Business/16x16/paperclip.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Configuration\Footer\Agenda\Suneco meeting.item">
       <Icon>/temp/IconCache/Business/16x16/paperclip.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -130,17 +140,22 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Configuration\Footer\Archief\Meeting 1.item">
+    <SitecoreItem Include="sitecore\content\Configuration\Footer\Archief\Borrel december 2012.item">
       <Icon>/temp/IconCache/Business/16x16/paperclip.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Configuration\Footer\Archief\Meeting 2.item">
+    <SitecoreItem Include="sitecore\content\Configuration\Footer\Archief\eFocus meeting.item">
       <Icon>/temp/IconCache/Business/16x16/paperclip.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Configuration\Footer\Archief\Meeting 3.item">
+    <SitecoreItem Include="sitecore\content\Configuration\Footer\Archief\NCIM meeting.item">
+      <Icon>/temp/IconCache/Business/16x16/paperclip.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Configuration\Footer\Archief\Premeeting Sitecore.item">
       <Icon>/temp/IconCache/Business/16x16/paperclip.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -236,6 +251,11 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\content\Home\Agenda\Meeting 13 maart 2013 Estate.item">
+      <Icon>/temp/IconCache/Applications/16x16/document_time.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Agenda\Meeting 20 november 2013 Caesar Experts.item">
       <Icon>/temp/IconCache/Applications/16x16/document_time.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -491,11 +511,6 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL_oud\PersonOverviewView.item">
-      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL_oud\test.item">
       <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -923,6 +938,46 @@
     <SitecoreItem Include="sitecore\templates.item">
       <Icon>/temp/IconCache/Applications/16x16/form_blue.png</Icon>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches.item">
+      <Icon>/temp/IconCache/Software/16x16/component.png</Icon>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\User Defined.item">
+      <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\User Defined\SUGNL.item">
+      <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\User Defined\SUGNL\Meeting Media Folder.item">
+      <Icon>/temp/IconCache/Multimedia/16x16/open_image_h.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\User Defined\SUGNL\Meeting Media Folder\%2524name.item">
+      <Icon>/temp/IconCache/Multimedia/16x16/open_image_h.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\User Defined\SUGNL\Meeting Media Folder\%2524name\Downloads.item">
+      <Icon>/temp/IconCache/Business/16x16/presentation_chart.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\User Defined\SUGNL\Meeting Media Folder\%2524name\Photos.item">
+      <Icon>/temp/IconCache/Applications/16x16/photo_scenery.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\User Defined\SUGNL\Meeting Media Folder\%2524name\Videos.item">
+      <Icon>/temp/IconCache/Multimedia/16x16/new_video.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\User Defined.item">

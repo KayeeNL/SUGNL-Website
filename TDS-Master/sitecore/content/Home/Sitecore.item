@@ -19,7 +19,7 @@ content-length: 3
 ----version----
 language: nl-NL
 version: 1
-revision: e97ca8a7-7ce3-49ea-8886-53b60d45e324
+revision: b4b4634c-860e-41bc-b74e-97d24d1728a5
 
 ----field----
 field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
@@ -28,13 +28,6 @@ key: browser title
 content-length: 8
 
 Sitecore
-----field----
-field: {FB648209-FCCF-42ED-A2F5-7B4151447E9F}
-name: Hide In Menu
-key: hide in menu
-content-length: 1
-
-1
 ----field----
 field: {B22197A6-5868-42DF-9BA5-0C19DA817C30}
 name: Menu Title
@@ -62,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e97ca8a7-7ce3-49ea-8886-53b60d45e324
+b4b4634c-860e-41bc-b74e-97d24d1728a5
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130125T224317:634947505970260408
+20130116T230514:634939743143414929
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
