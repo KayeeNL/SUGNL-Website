@@ -16,10 +16,17 @@ key: path
 content-length: 35
 
 /MVC/Layouts/DefaultPageView.cshtml
+----field----
+field: {E9CC5A73-3C8A-4D7D-92AC-3B88C18A996A}
+name: Model
+key: model
+content-length: 37
+
+/sitecore/layout/Models/BasePageModel
 ----version----
 language: en
 version: 1
-revision: a87afb47-981f-4bf6-b447-36e27f6a3be8
+revision: 067d117c-aaf0-434e-8ea9-a091b4b13b7e
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -27,21 +34,21 @@ name: __Created
 key: __created
 content-length: 15
 
-20130128T112954
+20130128T112900
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-a87afb47-981f-4bf6-b447-36e27f6a3be8
+067d117c-aaf0-434e-8ea9-a091b4b13b7e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130128T125004:634949742043453499
+20130128T160705:634949860255452733
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

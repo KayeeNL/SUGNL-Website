@@ -1,5 +1,5 @@
 @using Website.MVC.Model.Base
-@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TypedTemplate<Website.MVC.Model.Base.BasePageModel>
+@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TemplateBase<BasePageModel>
 @{
     var pages = new List<BasePageModel>();
     BasePageModel current = Model;
@@ -10,10 +10,7 @@
         {
             break;
         }
-        else
-        {
-            current = current.Parent;
-        }
+        current = current.Parent;
     }
     pages.Reverse();
 }

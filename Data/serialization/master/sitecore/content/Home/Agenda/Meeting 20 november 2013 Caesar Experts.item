@@ -19,7 +19,7 @@ content-length: 3
 ----version----
 language: nl-NL
 version: 1
-revision: 1d5b1eae-e231-4263-8dd9-2d4563f498bb
+revision: 684c9ad5-af05-4b2a-9d37-e53c488d9975
 
 ----field----
 field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
@@ -86,6 +86,13 @@ content-length: 39
 
 <p>Het programma is nog niet bekend</p>
 ----field----
+field: {88EB4369-1ADE-4652-862A-D9C9632BFA99}
+name: Organizer Logo
+key: organizer logo
+content-length: 192
+
+<image mediaid="{78488864-7672-4298-880E-0D73882385ED}" mediapath="/SUGNL/Meetings/Meeting 20 november 2013 Caesar Experts/caesarexperts" src="~/media/7848886476724298880E0D73882385ED.ashx" />
+----field----
 field: {867B8B66-990C-446D-87CC-A3B5FEEAC86D}
 name: Attending Title
 key: attending title
@@ -112,14 +119,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1d5b1eae-e231-4263-8dd9-2d4563f498bb
+684c9ad5-af05-4b2a-9d37-e53c488d9975
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130128T102718:634949656386461300
+20130128T111915:634949687552323639
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

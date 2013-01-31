@@ -35,5 +35,8 @@ namespace Website.MVC.Model.Interfaces
 
         [SitecoreField(FieldName = "Call To Action Link")]
         Link CallToActionLink { get; set; }
+
+        [SitecoreField(FieldName = "Call To Action CssClass")]
+        string CallToActionCssClass { get; set; }
     }
 }

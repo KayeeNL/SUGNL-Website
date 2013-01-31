@@ -165,9 +165,21 @@
     <Compile Include="MVC\Model\AgendaModel.cs" />
     <Compile Include="MVC\Model\AgendaOverviewModel.cs" />
     <Compile Include="MVC\Model\Base\BaseWebViewPage.cs" />
+    <Compile Include="MVC\Model\DisclaimerModel.cs" />
+    <Compile Include="MVC\Model\Interfaces\IDisclaimer.cs" />
     <Compile Include="MVC\Views\Codebehind\CallToActionBlocksView.cshtml.cs" />
     <Compile Include="MVC\Model\FooterFolderModel.cs" />
-    <Compile Include="MVC\Model\FooterView.cshtml.cs" />
+    <Compile Include="MVC\Views\Codebehind\CarouselView.cshtml.cs" />
+    <Compile Include="MVC\Views\Codebehind\AgendaOverviewView.cshtml.cs" />
+    <Compile Include="MVC\Views\Codebehind\BreadCrumbView.cshtml.cs" />
+    <Compile Include="MVC\Views\Codebehind\ContentDetailContainerView.cshtml.cs" />
+    <Compile Include="MVC\Views\Codebehind\ContentDetailView.cshtml.cs" />
+    <Compile Include="MVC\Views\Codebehind\ContentSideNavigationView.cshtml.cs" />
+    <Compile Include="MVC\Views\Codebehind\ContentTitleView.cshtml.cs" />
+    <Compile Include="MVC\Views\Codebehind\PersonOverviewView.cshtml.cs" />
+    <Compile Include="MVC\Views\Codebehind\PersonDetailView.cshtml.cs" />
+    <Compile Include="MVC\Views\Codebehind\HomePageIntroBlockView.cshtml.cs" />
+    <Compile Include="MVC\Views\Codebehind\FooterView.cshtml.cs" />
     <Compile Include="MVC\Model\Interfaces\IFooterMenu.cs" />
     <Compile Include="MVC\Model\Interfaces\IFooterMenuLink.cs" />
     <Compile Include="MVC\Model\Interfaces\IMediaFolder.cs" />
@@ -202,8 +214,9 @@
     <Compile Include="MVC\Model\Base\BasePageModel.cs" />
     <Compile Include="MVC\Model\ContentModel.cs" />
     <Compile Include="MVC\Model\HomeModel.cs" />
-    <Compile Include="MVC\Model\NavigationView.cshtml.cs" />
+    <Compile Include="MVC\Views\Codebehind\NavigationView.cshtml.cs" />
     <Compile Include="MVC\Views\Codebehind\AgendaDetailView.cshtml.cs" />
+    <Compile Include="MVC\Views\Codebehind\DisclaimerView.cshtml.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\HtmlUtil.cs" />
     <Compile Include="Utils\SitecoreUtil.cs" />
@@ -296,6 +309,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="layouts\Razor\TestCarouselView.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MVC\Views\DisclaimerView.cshtml">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

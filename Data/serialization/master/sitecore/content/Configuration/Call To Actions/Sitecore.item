@@ -12,7 +12,7 @@ templatekey: Call To Action Block
 ----version----
 language: nl-NL
 version: 1
-revision: c29c806d-4c9b-49be-be3e-6a7008c92afc
+revision: 2735b116-1f9f-4715-b9de-e35609cc7c67
 
 ----field----
 field: {9B859EE6-F004-474D-9D16-DF6BA11A08ED}
@@ -29,6 +29,13 @@ content-length: 166
 
 <image mediaid="{15AC9821-1663-4AB1-86E6-323A73F3F107}" mediapath="/SUGNL/Call To Action Blocks/banner_scAzure" src="~/media/15AC982116634AB186E6323A73F3F107.ashx" />
 ----field----
+field: {0CD2D253-2FCB-4893-8306-DE317A62A549}
+name: Call To Action CssClass
+key: call to action cssclass
+content-length: 8
+
+Sitecore
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -41,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c29c806d-4c9b-49be-be3e-6a7008c92afc
+2735b116-1f9f-4715-b9de-e35609cc7c67
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20121102T213227:634874887471271236
+20130131T105130:634952262900991040
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

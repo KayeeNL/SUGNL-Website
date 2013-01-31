@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {3767655D-5DA9-455E-911B-914812ACAF66}
+database: master
+path: /sitecore/content/Configuration/Carrousel Slides/Homepage/Slide 3
+parent: {1D17B63D-0A6E-469D-9AC9-6E742C9C627D}
+name: Slide 3
+master: {00000000-0000-0000-0000-000000000000}
+template: {3A20D670-F092-4E7A-AEA4-54E87B3A3FD0}
+templatekey: Carrousel Slide
+
+----version----
+language: nl-NL
+version: 1
+revision: 57642f0d-3eda-49d5-9825-bc24cf282df6
+
+----field----
+field: {ED5F1BF2-F429-4310-867D-3BD91BDCF56C}
+name: Slide Image
+key: slide image
+content-length: 164
+
+<image mediaid="{780572EC-9A9E-4006-9477-DE10F054C886}" mediapath="/SUGNL/Carrousel/sugnl_carousel_slide_001" src="~/media/780572EC9A9E40069477DE10F054C886.ashx" />
+----field----
+field: {908CECDC-6EE0-4CB4-BFA5-EAEC6A4A699E}
+name: Slide Link
+key: slide link
+content-length: 137
+
+<link linktype="internal" url="/Home/Over SUGNL/Organisatie.aspx" querystring="" target="" id="{F620A076-25BF-483D-9F92-311E45940B28}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130131T131000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+57642f0d-3eda-49d5-9825-bc24cf282df6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130131T132341:634952354211263689
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

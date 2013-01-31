@@ -1,6 +1,6 @@
 ----item----
 version: 1
-id: {D31D5921-F61B-4A9A-B4A7-18A7C7764E52}
+id: {FC1CCE88-6982-4F50-96AC-638A9B95214D}
 database: master
 path: /sitecore/layout/Glass Razor/SUGNL
 parent: {A97EE6DA-D936-4AA0-B44A-5E68C45BF6A0}
@@ -12,7 +12,7 @@ templatekey: Glass Razor Folder
 ----version----
 language: en
 version: 1
-revision: 56251332-aad0-4452-8258-e0e3fdccb7e2
+revision: 801f79ac-6a36-4c1c-91f7-1101c500ca2e
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -20,21 +20,21 @@ name: __Created
 key: __created
 content-length: 15
 
-20130120T200748
+20121027T220531
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-56251332-aad0-4452-8258-e0e3fdccb7e2
+801f79ac-6a36-4c1c-91f7-1101c500ca2e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130120T200748:634943092689116536
+20121027T220531:634869723318676157
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

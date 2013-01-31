@@ -105,6 +105,7 @@
 .\Debug\MVC\Layouts\DefaultPageView.cshtml
 .\Debug\MVC\Views\MetaDataView.cshtml
 .\Debug\layouts\Razor\TestCarouselView.cshtml
+.\Debug\MVC\Views\DisclaimerView.cshtml
 .\Debug\bin\Castle.Core.dll
 .\Debug\bin\Castle.Core.xml
 .\Debug\bin\ComponentArt.UIFramework.lic

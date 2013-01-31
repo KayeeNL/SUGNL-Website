@@ -145,7 +145,7 @@ content-length: 0
 ----version----
 language: en
 version: 1
-revision: 609b1e0c-1254-4f42-bc94-0b950e996711
+revision: 59b47bf5-0c11-49cc-82da-e6fab1349630
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
@@ -174,7 +174,7 @@ name: __Created
 key: __created
 content-length: 15
 
-20121215T204800
+20130128T124700
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -188,14 +188,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-609b1e0c-1254-4f42-bc94-0b950e996711
+59b47bf5-0c11-49cc-82da-e6fab1349630
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130120T203238:634943107588415370
+20130128T214833:634950065134458202
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -206,7 +206,7 @@ sitecore\admin
 ----version----
 language: nl-NL
 version: 1
-revision: c5acea89-9aab-436a-be03-a736e18fabb1
+revision: 9f26faa6-0f61-4eff-be78-695b4bb8970e
 
 ----field----
 field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
@@ -226,9 +226,9 @@ Welkom bij Sitecore User Group Nederland
 field: {55F32C9C-8DD7-4306-8D0F-91D07DC79A29}
 name: Meta Keywords
 key: meta keywords
-content-length: 55
+content-length: 91
 
-sitecore,usergroup,dutch usergroup,user group,nederland
+sitecore,usergroup,dutch usergroup,user group,nederland, Netherlands, Sitecore netherlands,
 ----field----
 field: {FB648209-FCCF-42ED-A2F5-7B4151447E9F}
 name: Hide In Menu
@@ -247,9 +247,9 @@ Home
 field: {93F414F1-8B7F-448E-A0CF-33A48E9C2E40}
 name: Carrousel Slides
 key: carrousel slides
-content-length: 77
+content-length: 116
 
-{47EAE656-DCE6-4E73-9464-EF64F688AAC5}|{245FDD13-DEBC-43C8-B356-7AE6DF337437}
+{47EAE656-DCE6-4E73-9464-EF64F688AAC5}|{245FDD13-DEBC-43C8-B356-7AE6DF337437}|{3767655D-5DA9-455E-911B-914812ACAF66}
 ----field----
 field: {B1C8671B-97FB-41BC-B6B5-0B9D25A1360E}
 name: Content Title
@@ -298,14 +298,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c5acea89-9aab-436a-be03-a736e18fabb1
+9f26faa6-0f61-4eff-be78-695b4bb8970e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130116T230701:634939744218931677
+20130131T131744:634952350649369961
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

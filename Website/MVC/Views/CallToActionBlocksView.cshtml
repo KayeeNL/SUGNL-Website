@@ -6,7 +6,7 @@
     {
         <div class="four columns block">
             @{
-                string h2Class = string.Format("heading{0}", callToActionBlock.CallToActionTitle);
+                string h2Class = string.Format("heading{0}", callToActionBlock.CallToActionCssClass);
             }
             <h2 class="@h2Class">@GlassHtml.Editable(callToActionBlock, x => x.CallToActionTitle)   </h2>
             @if (callToActionBlock.CallToActionLink != null)

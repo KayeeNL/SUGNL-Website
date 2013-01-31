@@ -8,35 +8,6 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="en">
 <!--<![endif]-->
-
-<!-- ================================================== -->
-<!-- Design en front-end ontwikkeling:                  -->
-<!-- ================================================== -->
-<!-- Estate Internet                                    -->
-<!-- Van E-mail tot E-Business                          -->
-<!-- ================================================== -->
-<!-- Sportweg 30-32                                 -->
-<!-- Postbus 5091                                       -->
-<!-- 5004 EB  Tilburg                                   -->
-<!-- + 31 (0)13 535 04 35                               -->
-<!-- ================================================== -->
-<!-- <a href="http://www.estate.nl">www.estate.nl</a>   -->
-<!-- info@estate.nl                                     -->
-<!-- ================================================== -->
-
-<!-- ================================================== -->
-<!-- Technische implementatie:                          -->
-<!-- ================================================== -->
-<!-- Kayee, Internet & Software Oplossingen             -->
-<!-- ================================================== -->
-<!-- Weteringsweide 4                                   -->
-<!-- 6566 KB Millingen aan de Rijn                      -->
-<!-- Tel. 06 - 41 225 385                               -->
-<!-- ================================================== -->
-<!-- <a href="http://www.kayee.nl">www.kayee.nl</a>     -->
-<!-- info@kayee.nl                                      -->
-<!-- ================================================== -->
-
 <head runat="server">
     <title><%= BasePageModel.BrowserTitle %> - Sitecore User Group Nederland (SUGNL)</title>
     <meta charset="utf-8" />
@@ -60,7 +31,6 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <!-- De class "homepage" toegevoegd op de body -->
         <!-- 
             Door: Maarten Hunink, Zinnebeeld
             Versie: 1.0
@@ -143,7 +113,6 @@
             </style><div id="ie7_banner"><div id="ie7_wrap"><div id="ie7_links"><a href="http://www.mozilla.com/nl"><img src="http://www.wijstoppenook.nl/site/gfx/firefox_small.png" alt="" />Firefox</a><a href="http://www.google.com/chrome"><img src="http://www.wijstoppenook.nl/site/gfx/chrome_small.png" alt="" />Chrome</a><a href="http://www.apple.com/safari"><img src="http://www.wijstoppenook.nl/site/gfx/safari_small.png" alt="" />Safari</a><a href="http://www.opera.com"><img src="http://www.wijstoppenook.nl/site/gfx/opera_small.png" alt="" />Opera</a> </div><h1>U gebruikt een verouderde versie van Internet Explorer</h1><p>Helaas wordt Internet Explorer 7 of lager niet meer ondersteund op deze website. Wij raden u aan over te schakelen naar een moderne internetbrowser. U kunt natuurlijk kiezen voor <a href="http://www.microsoft.com/ie">Internet Explorer 9</a>. Beter nog kiest u een browser uit het overzicht hiernaast.<br /> Deze browsers zijn veelal sneller, veiliger en voldoen beter aan de webstandaarden.</p></div></div>
         <![endif]-->
         <div class="topContainer">
-            <!-- Een div met class "topContainer" toegevoegd om de div "top-header" en "top-bottom" -->
             <div class="top-header">
                 <sc:Placeholder runat="server" Key="header" />
             </div>
@@ -158,10 +127,11 @@
         </div>
         <div class="disclaimer">
             <div class="row">
-                <div class="twelve columns">Sponsored by: <a href="http://www.sitecore.net">Sitecore</a> | Ontwikkeling en Design: <a href="http://www.kayee.nl">Kayee, Internet & Software Oplossingen</a> & <a href="http://www.estate.nl">Estate</a></div>
+                <div class="twelve columns">
+                    <sc:Placeholder runat="server" Key="disclaimer" />
+                </div>
             </div>
         </div>
-
 
         <!-- Included JS Files (Uncompressed) -->
         <!--
@@ -196,7 +166,6 @@
 
         <!-- Included JS Files (Compressed) -->
         <script src="/javascripts/foundation.min.js"> </script>
-
         <script src="/javascripts/jquery.mousewheel-3.0.6.pack.js"></script>
         <script src="/javascripts/jquery.fancybox.js"></script>
         <!-- Initialize JS Plugins -->

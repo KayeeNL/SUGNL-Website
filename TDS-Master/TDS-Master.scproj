@@ -100,6 +100,21 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Configuration\Carrousel Slides\Homepage\Slide 3.item">
+      <Icon>/temp/IconCache/Imaging/32x32/fit_selection_h.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Configuration\Disclaimer.item">
+      <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Configuration\Disclaimer\Disclaimer.item">
+      <Icon>/temp/IconCache/Applications/16x16/information.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
     <SitecoreItem Include="sitecore\content\Configuration\Footer.item">
       <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
@@ -260,11 +275,6 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Home\Agenda\Meeting 23 januari 2013 eFocus.item">
-      <Icon>/temp/IconCache/Applications/16x16/document_time.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
     <SitecoreItem Include="sitecore\content\Home\Archief.item">
       <Icon>/temp/IconCache/Business/16x16/address_book_add.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
@@ -340,7 +350,7 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Home\Over SUGNL\Sprekers\Chris van der Steeg.item">
+    <SitecoreItem Include="sitecore\content\Home\Over SUGNL\Sprekers\Chris van de Steeg.item">
       <Icon>/temp/IconCache/People/16x16/user1_edit.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -361,6 +371,11 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\content\Home\Over SUGNL\Sprekers\Sebastiaan Bode.item">
+      <Icon>/temp/IconCache/People/16x16/user1_edit.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Over SUGNL\Sprekers\Stijn van Aert.item">
       <Icon>/temp/IconCache/People/16x16/user1_edit.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -390,72 +405,142 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\AgendaDetailView.item">
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\CodeBehindViews.item">
+      <Icon>/temp/IconCache/Applications/32x32/folder_blue.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\CodeBehindViews\AgendaDetailView.item">
       <Icon>/temp/IconCache/software/32x32/text_code_csharp.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\AgendaOverviewView.item">
-      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\BreadCrumbView.item">
-      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\CallToActionBlocksView.item">
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\CodeBehindViews\AgendaOverviewView.item">
       <Icon>/temp/IconCache/software/32x32/text_code_csharp.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\CarouselView.item">
-      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\ContentDetailContainerView.item">
-      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\ContentDetailView.item">
-      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\ContentSideNavigationView.item">
-      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\ContentTitleView.item">
-      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\FooterView.item">
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\CodeBehindViews\BreadCrumbView.item">
       <Icon>/temp/IconCache/software/32x32/text_code_csharp.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\HomePageIntroBlockView.item">
-      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\NavigationView.item">
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\CodeBehindViews\CallToActionBlocksView.item">
       <Icon>/temp/IconCache/software/32x32/text_code_csharp.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\PersonDetailView.item">
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\CodeBehindViews\CarouselView.item">
+      <Icon>/temp/IconCache/software/32x32/text_code_csharp.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\CodeBehindViews\ContentDetailContainerView.item">
+      <Icon>/temp/IconCache/software/32x32/text_code_csharp.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\CodeBehindViews\ContentDetailView.item">
+      <Icon>/temp/IconCache/software/32x32/text_code_csharp.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\CodeBehindViews\ContentSideNavigationView.item">
+      <Icon>/temp/IconCache/software/32x32/text_code_csharp.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\CodeBehindViews\ContentTitleView.item">
+      <Icon>/temp/IconCache/software/32x32/text_code_csharp.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\CodeBehindViews\DisclaimerView.item">
+      <Icon>/temp/IconCache/software/32x32/text_code_csharp.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\CodeBehindViews\FooterView.item">
+      <Icon>/temp/IconCache/software/32x32/text_code_csharp.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\CodeBehindViews\HomePageIntroBlockView.item">
+      <Icon>/temp/IconCache/software/32x32/text_code_csharp.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\CodeBehindViews\NavigationView.item">
+      <Icon>/temp/IconCache/software/32x32/text_code_csharp.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\CodeBehindViews\PersonDetailView.item">
+      <Icon>/temp/IconCache/software/32x32/text_code_csharp.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\CodeBehindViews\PersonOverviewView.item">
+      <Icon>/temp/IconCache/software/32x32/text_code_csharp.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\TypedViews.item">
+      <Icon>/temp/IconCache/Applications/32x32/folder_blue.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\TypedViews\AgendaOverviewView.item">
       <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\PersonOverviewView.item">
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\TypedViews\BreadCrumbView.item">
+      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\TypedViews\CallToActionBlocksView.item">
+      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\TypedViews\CarouselView.item">
+      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\TypedViews\ContentDetailContainerView.item">
+      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\TypedViews\ContentDetailView.item">
+      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\TypedViews\ContentSideNavigationView.item">
+      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\TypedViews\ContentTitleView.item">
+      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\TypedViews\HomePageIntroBlockView.item">
+      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\TypedViews\PersonDetailView.item">
+      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\TypedViews\PersonOverviewView.item">
       <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -522,6 +607,11 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\media library\SUGNL\Carrousel\1050x450.item">
       <Icon>/sitecore/shell/themes/standard/~/media/4C68D7E12B6341AA915CCFEFED095143.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Carrousel\sugnl_carousel_slide_001.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/780572EC9A9E40069477DE10F054C886.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
@@ -907,6 +997,11 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\media library\SUGNL\People\sebastiaanbode.item">
       <Icon>/sitecore/shell/themes/standard/~/media/A5E82045CDA242E8B530A9E6773A6428.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\People\stijnaert.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/FA7FEC6FF5B34B39892583FE54808D80.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
@@ -1415,6 +1510,11 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\User Defined\SUGNL\Reference\Call To Actions\Call To Action Block\Call To Action Block\Call To Action CssClass.item">
+      <Icon>/temp/IconCache/Applications/32x32/Document.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\User Defined\SUGNL\Reference\Call To Actions\Call To Action Block\Call To Action Block\Call To Action Image.item">
       <Icon>/temp/IconCache/Applications/32x32/Document.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
@@ -1482,6 +1582,16 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\User Defined\SUGNL\Reference\Classification\Classification Type.item">
       <Icon>/temp/IconCache/People/16x16/cubes_blue.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\User Defined\SUGNL\Reference\Disclaimer.item">
+      <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\User Defined\SUGNL\Reference\Disclaimer\Disclaimer.item">
+      <Icon>/temp/IconCache/Applications/16x16/information.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
