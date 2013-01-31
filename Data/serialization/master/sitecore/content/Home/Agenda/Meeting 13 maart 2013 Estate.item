@@ -19,7 +19,7 @@ content-length: 3
 ----version----
 language: nl-NL
 version: 1
-revision: ec2ad20e-6eb3-451f-98ed-d82768cc6a3c
+revision: ec545377-420d-4062-991b-47c6e8c4060a
 
 ----field----
 field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
@@ -118,9 +118,16 @@ Aanmelden?
 field: {C2873975-B25C-4ABC-A21E-D420D9994AB6}
 name: Attending Intro
 key: attending intro
-content-length: 57
+content-length: 68
 
-Je kan je momenteel voor deze meeting nog niet aanmelden.
+Je kan je aanmelden voor deze meeting via de website van Eventbrite.
+----field----
+field: {A9FACE6F-6060-4CB3-86BA-3363B6759C0F}
+name: Attending Url
+key: attending url
+content-length: 95
+
+<link linktype="external" url="http://sugnlmeeting-es2002.eventbrite.nl" anchor="" target="" />
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -134,14 +141,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ec2ad20e-6eb3-451f-98ed-d82768cc6a3c
+ec545377-420d-4062-991b-47c6e8c4060a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130112T221946:634936259864604742
+20130131T142528:634952391286874293
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
