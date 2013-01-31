@@ -1,7 +1,7 @@
 @using Sitecore
 @using Website.MVC.Model.Base
 @using Website.Utils
-@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TypedTemplate<Website.MVC.Model.Base.BasePageModel>
+@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TemplateBase<BasePageModel>
 @{
     IEnumerable<BasePageModel> children = Model.Parent.IsStartItem() ? Model.Children : Model.Parent.Children;
 }
