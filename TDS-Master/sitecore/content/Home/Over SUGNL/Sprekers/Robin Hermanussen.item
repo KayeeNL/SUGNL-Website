@@ -2,8 +2,8 @@
 version: 1
 id: {BE903E64-7C6C-4F8C-A717-866D6A537CB4}
 database: master
-path: /sitecore/content/Home/Over SUGNL/Organisatie/Robin Hermanussen
-parent: {F620A076-25BF-483D-9F92-311E45940B28}
+path: /sitecore/content/Home/Over SUGNL/Sprekers/Robin Hermanussen
+parent: {365EF709-BDFB-4CD9-A2CA-B40A9CCC3E4E}
 name: Robin Hermanussen
 master: {00000000-0000-0000-0000-000000000000}
 template: {47C2AA83-45AE-411A-9A53-9EE52BAB6741}
@@ -19,7 +19,7 @@ content-length: 3
 ----version----
 language: nl-NL
 version: 1
-revision: 05dc8054-ada6-4e29-b393-1f09c9f5f461
+revision: 84c1a118-f84a-454f-ab49-c1f8729ebdd8
 
 ----field----
 field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
@@ -111,14 +111,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-05dc8054-ada6-4e29-b393-1f09c9f5f461
+84c1a118-f84a-454f-ab49-c1f8729ebdd8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130112T225702:634936282222353533
+20130131T222251:634952677716107285
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

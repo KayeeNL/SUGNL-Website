@@ -12,22 +12,22 @@ templatekey: Carrousel Slide
 ----version----
 language: nl-NL
 version: 1
-revision: 48dc2ba7-a0f5-469f-b9e5-9e5615259dc3
+revision: cae531de-1df3-45f5-ad49-5d7790972fe9
 
 ----field----
 field: {ED5F1BF2-F429-4310-867D-3BD91BDCF56C}
 name: Slide Image
 key: slide image
-content-length: 143
+content-length: 164
 
-<image mediaid="{BC166083-6D50-427E-8226-DA340C0691DD}" mediapath="/SUGNL/Carrousel/001" src="~/media/BC1660836D50427E8226DA340C0691DD.ashx" />
+<image mediaid="{BAE05E89-A849-4D6C-960D-5CD81C0FBD40}" mediapath="/SUGNL/Carrousel/sugnl_carousel_slide_001" src="~/media/BAE05E89A8494D6C960D5CD81C0FBD40.ashx" />
 ----field----
 field: {908CECDC-6EE0-4CB4-BFA5-EAEC6A4A699E}
 name: Slide Link
 key: slide link
-content-length: 121
+content-length: 132
 
-<link linktype="internal" url="/Home/Agenda.aspx" querystring="" target="" id="{F17A56F6-F523-41C5-9D34-5E29AEE55393}" />
+<link linktype="internal" url="/Home/Over SUGNL/Waarom.aspx" querystring="" target="" id="{B2FA830E-C2CB-4D69-8A3F-8F47F1B653E0}" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-48dc2ba7-a0f5-469f-b9e5-9e5615259dc3
+cae531de-1df3-45f5-ad49-5d7790972fe9
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20121210T212608:634907715683675189
+20130131T211825:634952639059676264
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

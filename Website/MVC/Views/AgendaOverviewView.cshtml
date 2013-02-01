@@ -14,7 +14,7 @@
             </div>
             <div class="nine columns contentBlock">
                 <a href="@agendaItem.Url">
-                    <h2>@agendaItem.ContentTitle</h2>
+                    <h2>@Editable(agendaItem, x=> x.ContentTitle)</h2>
                 </a>
                 <p><a href="#">@agendaItem.MeetingType.Name</a> - @Raw(agendaItem.ContentIntroduction)</p>
                 <div class="linksContainer"><a href="@agendaItem.Url" class="leesMeer">Lees meer</a></div>

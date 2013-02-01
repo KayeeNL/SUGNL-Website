@@ -29,7 +29,7 @@
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"> </script>
     <![endif]-->
 </head>
-<body>
+<body id="body" runat="server">
     <form id="form1" runat="server">
         <!-- 
             Door: Maarten Hunink, Zinnebeeld

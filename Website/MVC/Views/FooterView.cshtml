@@ -1,3 +1,4 @@
+@using System.Collections.Specialized
 @using Website.MVC.Model.Interfaces
 @inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TemplateBase<Website.MVC.Model.FooterFolderModel>
 <div class="row">
@@ -8,11 +9,11 @@
 
             @if (footerMenu.FooterMenuLinks.Any())
             {
-                <ul class="@footerMenu.CssClassChildren">
+                <ul class="@Editable(footerMenu, x=> x.CssClassChildren)">
                     @foreach (IFooterMenuLink footerMenuLink in footerMenu.FooterMenuLinks)
                     {
                         <li>
-                            <a href="@footerMenuLink.LinkUrl.Url" class="@footerMenuLink.LinkCssClass">@footerMenuLink.LinkTitle</a>
+                            @GlassHtml.RenderLink(@footerMenuLink.LinkUrl, new NameValueCollection {{"class", footerMenuLink.LinkCssClass}, {"title", footerMenuLink.LinkTitle}} , footerMenuLink.LinkTitle)
                         </li>
                     }
                 </ul>

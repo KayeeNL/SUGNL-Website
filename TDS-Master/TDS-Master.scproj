@@ -340,11 +340,6 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Home\Over SUGNL\Organisatie\Robin Hermanussen.item">
-      <Icon>/temp/IconCache/People/16x16/user1_edit.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
     <SitecoreItem Include="sitecore\content\Home\Over SUGNL\Sprekers.item">
       <Icon>/temp/IconCache/People/16x16/users1.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
@@ -366,6 +361,11 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\content\Home\Over SUGNL\Sprekers\Robbert Hock.item">
+      <Icon>/temp/IconCache/People/16x16/user1_edit.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Over SUGNL\Sprekers\Robin Hermanussen.item">
       <Icon>/temp/IconCache/People/16x16/user1_edit.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -600,18 +600,18 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\media library\SUGNL\Carrousel\001.item">
-      <Icon>/sitecore/shell/themes/standard/~/media/BC1660836D50427E8226DA340C0691DD.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\media library\SUGNL\Carrousel\1050x450.item">
-      <Icon>/sitecore/shell/themes/standard/~/media/4C68D7E12B6341AA915CCFEFED095143.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
     <SitecoreItem Include="sitecore\media library\SUGNL\Carrousel\sugnl_carousel_slide_001.item">
-      <Icon>/sitecore/shell/themes/standard/~/media/780572EC9A9E40069477DE10F054C886.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <Icon>/sitecore/shell/themes/standard/~/media/BAE05E89A8494D6C960D5CD81C0FBD40.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Carrousel\sugnl_carousel_slide_borrel16mei.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/69FEB9444B1A40D9A6254697A55AB047.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Carrousel\sugnl_carousel_slide_estate.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/6E215B70FA884A058485792147D951BA.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
@@ -805,6 +805,11 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Downloads\SUGNL eFocus meeting 23012013  MVC Sessie.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/3C1733C82A5F4C36B00BDA5AE43E78A2.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
     <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\efocus.item">
       <Icon>/sitecore/shell/themes/standard/~/media/2E0604939A224C1E838E3E83150B11EE.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
@@ -812,6 +817,91 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos.item">
       <Icon>/temp/IconCache/Applications/16x16/photo_scenery.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_001.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/E3C1A1B85B3A44D0B3D37698AC598BE9.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_002.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/751D6024D33144E09759362A90FFA156.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_003.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/0C2EB5C950FF4B468B3EEB5E3887C1AF.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_004.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/1E82BAC847C04DBAAA1492B5C7BEF422.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_005.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/E67C199DC6304A399AD3FB54F8ABC14C.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_006.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/4436CDC00D6B48C48E837A74B84876D0.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_007.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/F368F10B499945E4AC97586CAE0BD218.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_008.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/5A6EA9AD5723456A814B298EFC9D57BC.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_009.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/703401A45FFE4E0E8C7331697167C7F7.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_010.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/0A94003CA8304828A1BAC6BE61C4D6E6.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_011.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/66D226C474C04F0E95484D5990F29417.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_012.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/EA1A8B244E654F5EA632B4EC0CBB6996.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_014.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/BBF3DC331DA74A24A6FB3351D13BED0F.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_015.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/A843EC6C9A9E41CC838EC2EBB6E3EF05.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_016.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/5F2DEF5DE1EE4002B9B83C5A06C74168.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_017.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/E0E6F44CAAFC4650900D129984B9B8E3.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_018.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/6461650356B3463A9D6E7310DFBC160B.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
@@ -955,6 +1045,11 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\People\alexotten.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/9E4F2A8A2DBF421EAD036989B852B32D.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
     <SitecoreItem Include="sitecore\media library\SUGNL\People\annemariesimons.item">
       <Icon>/sitecore/shell/themes/standard/~/media/FCA260355A81426E9E812F9755E86156.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
@@ -962,6 +1057,11 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\media library\SUGNL\People\chrisvandersteeg.item">
       <Icon>/sitecore/shell/themes/standard/~/media/D61DFB91D32D4500A36C597FC606EBB8.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\People\johannamansvelder.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/F3C48B8625D44E1F806BBD0025C43FCA.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>

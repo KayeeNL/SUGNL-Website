@@ -1,6 +1,6 @@
 ----item----
 version: 1
-id: {3767655D-5DA9-455E-911B-914812ACAF66}
+id: {30BD3270-B0B9-4C57-A933-5556E78D165B}
 database: master
 path: /sitecore/content/Configuration/Carrousel Slides/Homepage/Slide 3
 parent: {1D17B63D-0A6E-469D-9AC9-6E742C9C627D}
@@ -12,22 +12,22 @@ templatekey: Carrousel Slide
 ----version----
 language: nl-NL
 version: 1
-revision: 57642f0d-3eda-49d5-9825-bc24cf282df6
+revision: 754f79b9-378a-4e6f-9526-3908df32f995
 
 ----field----
 field: {ED5F1BF2-F429-4310-867D-3BD91BDCF56C}
 name: Slide Image
 key: slide image
-content-length: 164
+content-length: 172
 
-<image mediaid="{780572EC-9A9E-4006-9477-DE10F054C886}" mediapath="/SUGNL/Carrousel/sugnl_carousel_slide_001" src="~/media/780572EC9A9E40069477DE10F054C886.ashx" />
+<image mediaid="{69FEB944-4B1A-40D9-A625-4697A55AB047}" mediapath="/SUGNL/Carrousel/sugnl_carousel_slide_borrel16mei" src="~/media/69FEB9444B1A40D9A6254697A55AB047.ashx" />
 ----field----
 field: {908CECDC-6EE0-4CB4-BFA5-EAEC6A4A699E}
 name: Slide Link
 key: slide link
-content-length: 137
+content-length: 140
 
-<link linktype="internal" url="/Home/Over SUGNL/Organisatie.aspx" querystring="" target="" id="{F620A076-25BF-483D-9F92-311E45940B28}" />
+<link linktype="internal" url="/Home/Agenda/Borrel 16 Mei 2013.aspx" querystring="" target="" id="{6B35C67A-E46B-4DB4-8E83-212EA3BE39F9}" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -41,7 +41,7 @@ name: __Created
 key: __created
 content-length: 15
 
-20130131T131000
+20130131T214000
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-57642f0d-3eda-49d5-9825-bc24cf282df6
+754f79b9-378a-4e6f-9526-3908df32f995
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130131T132341:634952354211263689
+20130131T214115:634952652750799351
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

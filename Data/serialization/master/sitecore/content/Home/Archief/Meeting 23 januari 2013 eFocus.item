@@ -59,7 +59,7 @@ sitecore\admin
 ----version----
 language: nl-NL
 version: 1
-revision: a6e3fce2-7df2-46ed-8949-a69f5de7d76f
+revision: a7715d4c-8fbf-4ec2-9104-ea56cbdeb525
 
 ----field----
 field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
@@ -185,6 +185,20 @@ content-length: 0
 
 
 ----field----
+field: {79DB5448-FB59-4D29-9B6B-AE255198D6F6}
+name: Downloads Folder
+key: downloads folder
+content-length: 188
+
+<link linktype="internal" url="/sitecore/media library/SUGNL/Meetings/Meeting 23 januari 2013 eFocus/Downloads.aspx" querystring="" target="" id="{D66D7C53-0567-4F04-B94A-A5C4FDD3DD1F}" />
+----field----
+field: {E0777471-F22B-44CB-A132-2D3B00610784}
+name: Photos Folder
+key: photos folder
+content-length: 185
+
+<link linktype="internal" url="/sitecore/media library/SUGNL/Meetings/Meeting 23 januari 2013 eFocus/Photos.aspx" querystring="" target="" id="{83966D63-E26D-42F7-B48C-DEE0EE5D7140}" />
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -197,14 +211,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a6e3fce2-7df2-46ed-8949-a69f5de7d76f
+a7715d4c-8fbf-4ec2-9104-ea56cbdeb525
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130131T133752:634952362724410613
+20130201T113620:634953153803762197
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

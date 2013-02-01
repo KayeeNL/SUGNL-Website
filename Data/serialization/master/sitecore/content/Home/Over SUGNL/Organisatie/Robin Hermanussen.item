@@ -1,6 +1,6 @@
 ----item----
 version: 1
-id: {BE903E64-7C6C-4F8C-A717-866D6A537CB4}
+id: {567D2EC4-C6BF-41E1-8637-733A9177DC80}
 database: master
 path: /sitecore/content/Home/Over SUGNL/Organisatie/Robin Hermanussen
 parent: {F620A076-25BF-483D-9F92-311E45940B28}
@@ -10,115 +10,52 @@ template: {47C2AA83-45AE-411A-9A53-9EE52BAB6741}
 templatekey: Person
 
 ----field----
-field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
-name: __Sortorder
-key: __sortorder
-content-length: 3
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 0
 
-200
+
 ----version----
 language: nl-NL
 version: 1
-revision: 05dc8054-ada6-4e29-b393-1f09c9f5f461
+revision: bef38f25-b337-4513-b043-f0f594274f09
 
 ----field----
-field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
-name: Browser Title
-key: browser title
-content-length: 17
+field: {1B86697D-60CA-4D80-83FB-7555A2E6CE1C}
+name: __Source
+key: __source
+content-length: 73
 
-Robin Hermanussen
-----field----
-field: {B22197A6-5868-42DF-9BA5-0C19DA817C30}
-name: Menu Title
-key: menu title
-content-length: 17
-
-Robin Hermanussen
-----field----
-field: {B1C8671B-97FB-41BC-B6B5-0B9D25A1360E}
-name: Content Title
-key: content title
-content-length: 17
-
-Robin Hermanussen
-----field----
-field: {696B9A43-2F0C-4CA1-8745-7B30CCEC9A73}
-name: Firstname
-key: firstname
-content-length: 5
-
-Robin
-----field----
-field: {EB716353-72D8-4D6E-8195-9B628D442FE6}
-name: Lastname
-key: lastname
-content-length: 11
-
-Hermanussen
-----field----
-field: {16882F0D-3585-45B6-8A22-A60A4E0C3320}
-name: Person Image
-key: person image
-content-length: 154
-
-<image mediaid="{75F11B1F-1CFE-4209-88FC-99BF246B2318}" mediapath="/SUGNL/People/robin hermanussen" src="~/media/75F11B1F1CFE420988FC99BF246B2318.ashx" />
-----field----
-field: {3ED7DD16-3C6A-4F1F-AAB0-D8DA0718B771}
-name: Company Name
-key: company name
-content-length: 27
-
-Iquality Business Solutions
-----field----
-field: {4E1EB2BE-98A4-46AA-93F9-E7E12143EEAC}
-name: Company Url
-key: company url
-content-length: 22
-
-http://www.iquality.nl
-----field----
-field: {2D0838E6-1138-4B46-B801-1C04427B2397}
-name: LinkedIn Url
-key: linkedin url
-content-length: 38
-
-http://nl.linkedin.com/in/hermanussen/
-----field----
-field: {6BA00986-3BB5-487C-B24E-ACF4E21EBA05}
-name: Twitter Url
-key: twitter url
-content-length: 27
-
-http://twitter.com/metmanus
-----field----
-field: {D478E2E4-AEBC-4E61-8DB2-86F3E23BB3BD}
-name: Blog Url
-key: blog url
-content-length: 41
-
-http://hermanussen.eu/sitecore/wordpress/
+sitecore://master/{BE903E64-7C6C-4F8C-A717-866D6A537CB4}?lang=nl-NL&ver=1
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
-content-length: 15
+content-length: 34
 
-20130112T225200
+20130131T222234:634952677549657765
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-05dc8054-ada6-4e29-b393-1f09c9f5f461
+bef38f25-b337-4513-b043-f0f594274f09
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130112T225702:634936282222353533
+20130131T222234:634952677549657765
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -126,3 +63,17 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 0
+
+
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 0
+
+

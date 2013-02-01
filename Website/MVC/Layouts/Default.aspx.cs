@@ -19,6 +19,7 @@ using System;
 using System.Text;
 using System.Web.UI;
 using Glass.Sitecore.Mapper;
+using Website.MVC.Model;
 using Website.MVC.Model.Base;
 using Website.Utils;
 using Settings = Sitecore.Configuration.Settings;
@@ -28,6 +29,7 @@ namespace Website.MVC.Layouts
     public partial class Default : Page
     {
         protected BasePageModel BasePageModel { get; set; }
+        protected HomeModel HomeModel { get; set; }
 
         /// <summary>
         /// Handles the Load event of the Page control.
@@ -38,9 +40,15 @@ namespace Website.MVC.Layouts
         {
             ISitecoreContext context = new SitecoreContext();
             BasePageModel = context.GetCurrentItem<BasePageModel>();
+            HomeModel = context.GetHomeItem<HomeModel>();
 
             LoadMetaData();
             RegisterGoogleAnalyticsScript();
+
+            if (BasePageModel.Id == HomeModel.Id)
+            {
+                body.Attributes.Add("class", "homepage");
+            }
         }
 
         /// <summary>

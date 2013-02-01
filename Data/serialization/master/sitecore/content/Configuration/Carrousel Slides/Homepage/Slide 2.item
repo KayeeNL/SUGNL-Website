@@ -12,22 +12,22 @@ templatekey: Carrousel Slide
 ----version----
 language: nl-NL
 version: 1
-revision: fc6510da-2cf7-4fb8-a345-788c3cc9c7f1
+revision: 7019e23f-a880-4ac8-8698-33a64cacb553
 
 ----field----
 field: {ED5F1BF2-F429-4310-867D-3BD91BDCF56C}
 name: Slide Image
 key: slide image
-content-length: 148
+content-length: 167
 
-<image mediaid="{4C68D7E1-2B63-41AA-915C-CFEFED095143}" mediapath="/SUGNL/Carrousel/1050x450" src="~/media/4C68D7E12B6341AA915CCFEFED095143.ashx" />
+<image mediaid="{6E215B70-FA88-4A05-8485-792147D951BA}" mediapath="/SUGNL/Carrousel/sugnl_carousel_slide_estate" src="~/media/6E215B70FA884A058485792147D951BA.ashx" />
 ----field----
 field: {908CECDC-6EE0-4CB4-BFA5-EAEC6A4A699E}
 name: Slide Link
 key: slide link
-content-length: 155
+content-length: 150
 
-<link querystring="" linktype="internal" id="{17E82E60-40A4-4F4C-8DA3-698FEE794E91}" url="/Home/Archief/Pre Meeting 30 augustus 2012 Sitecore" target="" />
+<link linktype="internal" url="/Home/Agenda/Meeting 13 maart 2013 Estate.aspx" querystring="" target="" id="{E5C53991-0BF4-4DEE-933A-1B52A0F9D711}" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-fc6510da-2cf7-4fb8-a345-788c3cc9c7f1
+7019e23f-a880-4ac8-8698-33a64cacb553
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20121210T212619:634907715791521357
+20130131T211818:634952638981641801
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

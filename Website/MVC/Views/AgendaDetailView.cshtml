@@ -6,11 +6,11 @@
     <div class="twelve columns">
         @if (!string.IsNullOrEmpty(Model.ContentSubTitle))
         {
-            <h2>@Model.ContentSubTitle</h2>
+            <h2>@Editable(x=> x.ContentSubTitle)</h2>
         }
         else
         {
-            <h2>@Model.ContentTitle</h2>
+            <h2>@Editable(x=> x.ContentTitle)</h2>
         }
 
     </div>
@@ -27,9 +27,8 @@
         </div>
     </div>
 
-
     <div class="five columns">
-        <p>@Raw(Model.ContentIntroduction)</p>
+        <p>@Editable(x=> x.ContentIntroduction)</p>
         @GlassHtml.RenderLink(Model.AttendingUrl, new NameValueCollection {{"class", "aanmeldButton"}, {"title", "Meld je nu aan"}}, "Meld je nu aan")
 
     </div>

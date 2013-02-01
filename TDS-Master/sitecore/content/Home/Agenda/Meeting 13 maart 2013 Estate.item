@@ -16,10 +16,17 @@ key: __sortorder
 content-length: 3
 
 200
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 37
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" />
 ----version----
 language: nl-NL
 version: 1
-revision: ec545377-420d-4062-991b-47c6e8c4060a
+revision: 60dc3b3f-bea4-41db-be61-479d8e186700
 
 ----field----
 field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
@@ -88,7 +95,7 @@ content-length: 38
 field: {9DCDB4AA-4570-4FFF-8229-3347F7A60A4B}
 name: Location
 key: location
-content-length: 68
+content-length: 66
 
 <strong>Estate</strong><br />
 Sportweg 30-32<br />
@@ -100,6 +107,13 @@ key: topics
 content-length: 23
 
 <p>Nog niet bekend.</p>
+----field----
+field: {6DD7F51B-5F96-4E0F-87CF-B3E2A0A8DFFF}
+name: Speakers
+key: speakers
+content-length: 77
+
+{501037D2-AC3A-4C34-9D72-30E85A5F07C3}|{BE903E64-7C6C-4F8C-A717-866D6A537CB4}
 ----field----
 field: {88EB4369-1ADE-4652-862A-D9C9632BFA99}
 name: Organizer Logo
@@ -141,14 +155,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ec545377-420d-4062-991b-47c6e8c4060a
+60dc3b3f-bea4-41db-be61-479d8e186700
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130131T142528:634952391286874293
+20130131T222303:634952677836854192
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -156,3 +170,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
