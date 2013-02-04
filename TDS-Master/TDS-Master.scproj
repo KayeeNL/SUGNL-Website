@@ -340,12 +340,27 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Over SUGNL\Organisatie\Robin Hermanussen.item">
+      <Icon>/temp/IconCache/People/16x16/user1_edit.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
     <SitecoreItem Include="sitecore\content\Home\Over SUGNL\Sprekers.item">
       <Icon>/temp/IconCache/People/16x16/users1.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Over SUGNL\Sprekers\Alex Otten.item">
+      <Icon>/temp/IconCache/People/16x16/user1_edit.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
     <SitecoreItem Include="sitecore\content\Home\Over SUGNL\Sprekers\Chris van de Steeg.item">
+      <Icon>/temp/IconCache/People/16x16/user1_edit.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Over SUGNL\Sprekers\Johanna Mansvelder.item">
       <Icon>/temp/IconCache/People/16x16/user1_edit.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -902,6 +917,16 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_018.item">
       <Icon>/sitecore/shell/themes/standard/~/media/6461650356B3463A9D6E7310DFBC160B.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_019.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/E20BB2D774F244CEBD6D28E521472E5C.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Meetings\Meeting 23 januari 2013 eFocus\Photos\20130123_SUGNL_020.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/87C487EC244E4012B61442A82BB32BC8.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>

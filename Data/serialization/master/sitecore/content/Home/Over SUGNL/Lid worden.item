@@ -19,7 +19,7 @@ content-length: 3
 ----version----
 language: nl-NL
 version: 1
-revision: 8f5488f6-535f-42e5-acb3-12acc7b9852d
+revision: 35a8507d-509c-4fb9-9736-8c7f6e41dc52
 
 ----field----
 field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
@@ -50,6 +50,13 @@ content-length: 108
 
 U wilt graag lid worden van Sitecore User Group Nederland? Dit is niet nodig! Wij zullen u uitleggen waarom.
 ----field----
+field: {0D8D0290-C5B7-40CE-9485-F4861E1ED0EF}
+name: Content Text
+key: content text
+content-length: 283
+
+<p>De Sitecore User Group Nederland bijeenkomsten willen we zo laagdrempelig mogelijk houden. Iedereen die meer wil weten over het meest populaire Web Content Management systeem is dan ook van harte welkom. Je kan je voor iedere bijeenkomst aanmelden zolang er nog plaatsen zijn.</p>
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -62,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8f5488f6-535f-42e5-acb3-12acc7b9852d
+35a8507d-509c-4fb9-9736-8c7f6e41dc52
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130116T220413:634939706539097764
+20130201T213114:634953510740238464
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

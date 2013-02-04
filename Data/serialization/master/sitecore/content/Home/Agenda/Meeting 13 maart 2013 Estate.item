@@ -26,7 +26,7 @@ content-length: 37
 ----version----
 language: nl-NL
 version: 1
-revision: 60dc3b3f-bea4-41db-be61-479d8e186700
+revision: c816091b-a377-422c-9a33-18f26ed017ca
 
 ----field----
 field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
@@ -104,16 +104,29 @@ Sportweg 30-32<br />
 field: {9C882C53-1A51-4F47-B742-5DDEE23B1803}
 name: Topics
 key: topics
-content-length: 23
+content-length: 1268
 
-<p>Nog niet bekend.</p>
+<p>Programma voor Sitecore User Group Nederland bijeenkomst op 13 maart 2013:</p>
+<p>&nbsp;&nbsp;&nbsp; 17.00 - 18.00: Ontvangst met maaltijd<br />
+&nbsp;&nbsp;&nbsp; 18.00 - 18.10: Plaats nemen voor de presentatie en intro door Marc Duiker <br />
+&nbsp;&nbsp;&nbsp; 18.10 - 18.20: Welkomstwoord Estate Internet (Alex Otten)<br />
+&nbsp;&nbsp;&nbsp; 18.20 - 19.00: Destil case o.b.v. Sitecore E-commerce(Alex Otten + Johanna Mansvelder van Destil)<br />
+&nbsp;&nbsp;&nbsp; 19.00 - 19.45: SUG NL website o.b.v. Glass Sitecore Mapper Framework (Robbert Hock)<br />
+&nbsp;&nbsp;&nbsp; 19.45 - 20.00: Korte pauze<br />
+&nbsp;&nbsp;&nbsp; 20.00 - 20.45: Sitecore Unit testing met test fixtures (Robin Hermanussen)<br />
+&nbsp;&nbsp;&nbsp; 20.45 - 21.30: Napraten en ervaringen uitwisselen onder het genot van een <br />
+&nbsp;&nbsp;&nbsp; hapje en drankje.<br />
+&nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p>Er is een Huishoudelijk Reglement waar alle deelnemers zich aan dienen te houden. Lees dit ajb even door voordat je komt.</p>
+<p>Graag zien we je 13 maart tijdens deze SUGNL bijeenkomst. Meld je daarom snel aan!</p>
+<p>Binnenkort vind je meer informatie over SUGNL op onze website. Je kunt ons al wel volgen op Twitter: @sug_nl of praat mee en gebruik #sugnl. </p>
 ----field----
 field: {6DD7F51B-5F96-4E0F-87CF-B3E2A0A8DFFF}
 name: Speakers
 key: speakers
-content-length: 77
+content-length: 155
 
-{501037D2-AC3A-4C34-9D72-30E85A5F07C3}|{BE903E64-7C6C-4F8C-A717-866D6A537CB4}
+{4A3F899C-ABC7-4A1F-8B90-6152C99D0EF7}|{77C69C8D-90B3-4ADA-88A6-64A92E0097B9}|{501037D2-AC3A-4C34-9D72-30E85A5F07C3}|{BE903E64-7C6C-4F8C-A717-866D6A537CB4}
 ----field----
 field: {88EB4369-1ADE-4652-862A-D9C9632BFA99}
 name: Organizer Logo
@@ -155,14 +168,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-60dc3b3f-bea4-41db-be61-479d8e186700
+c816091b-a377-422c-9a33-18f26ed017ca
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130131T222303:634952677836854192
+20130201T204353:634953482335173810
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

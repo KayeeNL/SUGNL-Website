@@ -1,0 +1,100 @@
+----item----
+version: 1
+id: {77C69C8D-90B3-4ADA-88A6-64A92E0097B9}
+database: master
+path: /sitecore/content/Home/Over SUGNL/Sprekers/Johanna Mansvelder
+parent: {365EF709-BDFB-4CD9-A2CA-B40A9CCC3E4E}
+name: Johanna Mansvelder
+master: {00000000-0000-0000-0000-000000000000}
+template: {47C2AA83-45AE-411A-9A53-9EE52BAB6741}
+templatekey: Person
+
+----version----
+language: nl-NL
+version: 1
+revision: 4b345392-3100-4b74-b00c-c142e2395010
+
+----field----
+field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
+name: Browser Title
+key: browser title
+content-length: 18
+
+Johanna Mansvelder
+----field----
+field: {B22197A6-5868-42DF-9BA5-0C19DA817C30}
+name: Menu Title
+key: menu title
+content-length: 18
+
+Johanna Mansvelder
+----field----
+field: {B1C8671B-97FB-41BC-B6B5-0B9D25A1360E}
+name: Content Title
+key: content title
+content-length: 18
+
+Johanna Mansvelder
+----field----
+field: {696B9A43-2F0C-4CA1-8745-7B30CCEC9A73}
+name: Firstname
+key: firstname
+content-length: 7
+
+Johanna
+----field----
+field: {EB716353-72D8-4D6E-8195-9B628D442FE6}
+name: Lastname
+key: lastname
+content-length: 10
+
+Mansvelder
+----field----
+field: {16882F0D-3585-45B6-8A22-A60A4E0C3320}
+name: Person Image
+key: person image
+content-length: 154
+
+<image mediaid="{F3C48B86-25D4-4E1F-806B-BD0025C43FCA}" mediapath="/SUGNL/People/johannamansvelder" src="~/media/F3C48B8625D44E1F806BBD0025C43FCA.ashx" />
+----field----
+field: {3ED7DD16-3C6A-4F1F-AAB0-D8DA0718B771}
+name: Company Name
+key: company name
+content-length: 6
+
+Destil
+----field----
+field: {4E1EB2BE-98A4-46AA-93F9-E7E12143EEAC}
+name: Company Url
+key: company url
+content-length: 20
+
+http://www.destil.nl
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130201T204100
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4b345392-3100-4b74-b00c-c142e2395010
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130201T204227:634953481477864774
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
