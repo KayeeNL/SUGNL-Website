@@ -9,8 +9,8 @@
 
     public void Application_Start()
     {
-        var loader = new AttributeConfigurationLoader("Website.MVC, SUGNL.Website");
-        var context = new Context(loader, new GlassModuleLoader());
+        //var loader = new AttributeConfigurationLoader("Website.MVC, SUGNL.Website");
+        //var context = new Context(loader, new GlassModuleLoader());
     }
 
     public void Application_End()
