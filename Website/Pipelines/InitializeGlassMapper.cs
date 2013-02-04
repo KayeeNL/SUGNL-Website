@@ -18,6 +18,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Glass.Sitecore.Mapper.Configuration.Attributes;
+using Glass.Sitecore.Mapper.Razor;
 using Sitecore.Configuration;
 using Sitecore.Diagnostics;
 using Sitecore.Pipelines;
@@ -31,6 +32,10 @@ namespace Website.Pipelines
     /// Old way:
     /// var loader = new AttributeConfigurationLoader("Website.MVC, SUGNL.Website");
     /// var context = new Context(loader, new GlassModuleLoader());
+    /// I adjusted the code a little bit to pass in the GlassModuleLoader, else we get the following exception in the backend:
+    /// Exception: Glass.Sitecore.Mapper.MapperException
+    /// Message: Type Glass.Sitecore.Mapper.Razor.Model.GlassRazorFolder has not been loaded
+    /// Source: Glass.Sitecore.Mapper
     /// </summary>
     public class InitializeGlassMapper
     {
@@ -62,7 +67,7 @@ namespace Website.Pipelines
         private static void CreateContext(AttributeConfigurationLoader loader)
         {
             Assert.ArgumentNotNull(loader, "loader");
-            var context = new Glass.Sitecore.Mapper.Context(loader);
+            var context = new Glass.Sitecore.Mapper.Context(loader, new GlassModuleLoader());
         }
 
         private static IEnumerable<string> GetModelTypes()
