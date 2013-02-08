@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {FA943436-E351-48F8-8C98-762714D9B385}
+database: master
+path: /sitecore/content/Home/Sitecore/Nieuws/Sitecore 66 update 3 uit
+parent: {6B52DD84-5AE1-4E32-8898-EDB16CC0A589}
+name: Sitecore 66 update 3 uit
+master: {00000000-0000-0000-0000-000000000000}
+template: {4FA2E336-1DB7-46E0-AB91-EB7B38573E18}
+templatekey: News
+
+----version----
+language: nl-NL
+version: 1
+revision: 0d490332-2ac7-4809-bae8-a767dfc7f187
+
+----field----
+field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
+name: Browser Title
+key: browser title
+content-length: 53
+
+Nieuwe versie Sitecore CMS and DMS 6.6.0 update-3 uit
+----field----
+field: {B22197A6-5868-42DF-9BA5-0C19DA817C30}
+name: Menu Title
+key: menu title
+content-length: 53
+
+Nieuwe versie Sitecore CMS and DMS 6.6.0 update-3 uit
+----field----
+field: {B1C8671B-97FB-41BC-B6B5-0B9D25A1360E}
+name: Content Title
+key: content title
+content-length: 53
+
+Nieuwe versie Sitecore CMS and DMS 6.6.0 update-3 uit
+----field----
+field: {C75C7962-B318-465F-8996-0BCCCFB8864B}
+name: Content Introduction
+key: content introduction
+content-length: 101
+
+Op 16 januari 2013 heeft Sitecore een nieuwe update uitgebracht: Sitecore CMS and DMS 6.6.0 update-3.
+----field----
+field: {0D8D0290-C5B7-40CE-9485-F4861E1ED0EF}
+name: Content Text
+key: content text
+content-length: 556
+
+<p>De volgende zaken zitten in de nieuwe update:</p>
+<ul>
+    <li>Het Executive Dashboard is uitgebreid met 2 nieuwe rapporten: "Channel Performance" en "Campaign Performance".</li>
+    <li>Mogelijkheid om gebruikers te zien in engagement plan states in the Supervisor and the Monitor.</li>
+    <li>Virtuele gebruiker aanpassen en verbeteringen.</li>
+    <li>Item cloning verbeteringen.</li>
+    <li>Performance verbeteringen voor full publish operaties in multi-instance setups en voor item toegang op website met complexe beveiligingen.</li>
+</ul>
+----field----
+field: {B43063B2-C0E7-4401-AAE3-70AE610AABF4}
+name: Date
+key: date
+content-length: 15
+
+20130116T211700
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130208T211700
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0d490332-2ac7-4809-bae8-a767dfc7f187
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130208T214434:634959566742234463
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

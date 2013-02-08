@@ -19,7 +19,7 @@ content-length: 3
 ----version----
 language: nl-NL
 version: 1
-revision: 684c9ad5-af05-4b2a-9d37-e53c488d9975
+revision: a3a7ba1c-41a4-4271-a396-b9d5d5334693
 
 ----field----
 field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
@@ -42,6 +42,13 @@ key: content title
 content-length: 39
 
 Meeting 20 november 2013 Caesar Experts
+----field----
+field: {C75C7962-B318-465F-8996-0BCCCFB8864B}
+name: Content Introduction
+key: content introduction
+content-length: 139
+
+Van harte welkom bij deze bijeenkomst van de Sitecore User Group Nederland (SUGNL). Dit keer zijn we te gast bij Caesar Experts in Utrecht.
 ----field----
 field: {B43063B2-C0E7-4401-AAE3-70AE610AABF4}
 name: Date
@@ -119,14 +126,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-684c9ad5-af05-4b2a-9d37-e53c488d9975
+a3a7ba1c-41a4-4271-a396-b9d5d5334693
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130128T111915:634949687552323639
+20130208T212535:634959555351612028
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

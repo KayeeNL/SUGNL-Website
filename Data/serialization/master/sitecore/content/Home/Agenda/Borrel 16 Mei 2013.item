@@ -19,7 +19,7 @@ content-length: 3
 ----version----
 language: nl-NL
 version: 1
-revision: d1bbda64-6470-49f5-aaf2-8500264256b2
+revision: 0ee739a1-29ac-4b6d-b273-6674d3e83159
 
 ----field----
 field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
@@ -97,11 +97,11 @@ content-length: 85
 field: {9C882C53-1A51-4F47-B742-5DDEE23B1803}
 name: Topics
 key: topics
-content-length: 750
+content-length: 810
 
 <p>Van harte welkom bij de netwerk borrel van de Sitecore User Group Nederland (SUGNL). Om de 6 &aacute; 8 weken organiseren wij een event voor alle typen Sitecore gebruikers: van Developer tot Content Manager of Marketeer.</p>
 <p>Tijdens deze informele borrel kan je kennis maken met andere Sitecore enthousiastelingen en van gedachten wisselen over alles wat met Sitecore te maken heeft. Wil je zelf een actieve bijdrage leveren aan de bijeenkomsten? Dat kan ook! </p>
-<p>Er is een Huishoudelijk Reglement waar alle deelnemers zich aan dienen te houden. Lees dit ajb even door voordat je komt.</p>
+<p>Er is een <a href="~/media/D5A2CC206F67428D94E30EC928EADD1D.ashx">Huishoudelijk Reglement</a> waar alle deelnemers zich aan dienen te houden. Lees dit ajb even door voordat je komt.</p>
 <p>We zien je graag op 16 mei 2013&nbsp;in caf&eacute; Zussen in Utrecht. </p>
 <p>Volg ons op Twitter: @sug_nl of praat mee en gebruik #sugnl.</p>
 ----field----
@@ -145,14 +145,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-d1bbda64-6470-49f5-aaf2-8500264256b2
+0ee739a1-29ac-4b6d-b273-6674d3e83159
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130116T235730:634939774507743449
+20130208T215249:634959571692807440
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

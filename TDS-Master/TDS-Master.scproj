@@ -75,7 +75,7 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Configuration\Call To Actions\Sitecore.item">
+    <SitecoreItem Include="sitecore\content\Configuration\Call To Actions\Nieuws.item">
       <Icon>/temp/IconCache/Applications/16x16/selection.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -385,11 +385,6 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Home\Over SUGNL\Sprekers\Sebastiaan Bode.item">
-      <Icon>/temp/IconCache/People/16x16/user1_edit.png</Icon>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
     <SitecoreItem Include="sitecore\content\Home\Over SUGNL\Sprekers\Stijn van Aert.item">
       <Icon>/temp/IconCache/People/16x16/user1_edit.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
@@ -400,8 +395,23 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Over SUGNL\Website.item">
+      <Icon>/temp/IconCache/Applications/16x16/form_green_edit.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
     <SitecoreItem Include="sitecore\content\Home\Sitecore.item">
       <Icon>/temp/IconCache/Applications/16x16/form_green_edit.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Sitecore\Nieuws.item">
+      <Icon>/temp/IconCache/Network/16x16/news.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Sitecore\Nieuws\Sitecore 66 update 3 uit.item">
+      <Icon>/temp/IconCache/Network/16x16/news_edit.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
@@ -546,6 +556,16 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\TypedViews\HomePageIntroBlockView.item">
+      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\TypedViews\NewsDetailView.item">
+      <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Glass Razor\SUGNL\TypedViews\NewsOverviewView.item">
       <Icon>/temp/IconCache/Software/32x32/text_code_beanshell.png</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -1116,7 +1136,7 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\media library\SUGNL\People\robin hermanussen.item">
-      <Icon>/sitecore/shell/themes/standard/~/media/75F11B1F1CFE420988FC99BF246B2318.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <Icon>/sitecore/shell/themes/standard/~/media/B22A35D8A3DF4FEDBEC3FF1D8C93879A.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
@@ -1127,6 +1147,21 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\media library\SUGNL\People\stijnaert.item">
       <Icon>/sitecore/shell/themes/standard/~/media/FA7FEC6FF5B34B39892583FE54808D80.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\SUGNLHuishoudelijkreglement.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/D5A2CC206F67428D94E30EC928EADD1D.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Website.item">
+      <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\SUGNL\Website\logo_kayee_bw.item">
+      <Icon>/sitecore/shell/themes/standard/~/media/38FAA7A3CCD94CF8B0AD7F437ECE38CD.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master</Icon>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>

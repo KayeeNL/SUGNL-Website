@@ -1,0 +1,31 @@
+@using Website.MVC.Model
+@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TypedTemplate<Website.MVC.Model.NewsOverviewModel>
+<div class="row detail">
+    <div class="twelve columns">
+        @if (!string.IsNullOrEmpty(Model.ContentSubTitle))
+        {
+            <h2>@Editable(x=> x.ContentSubTitle)</h2>
+        }
+        else
+        {
+            <h2>@Editable(x=> x.ContentTitle)</h2>
+        }
+    </div>
+    <div class="twelve columns">        
+        <p class="intro">@Editable(x => x.ContentIntroduction)</p>
+    </div>
+</div>
+<div class="overview overviewList">
+    @foreach (NewsModel newsItem in Model.ChildrenAsNewsItems.OrderByDescending(x=> x.Date))
+    {
+        <div class="row">
+            <div class="twelve columns">
+                <a href="@newsItem.Url">
+                    <h2>@Editable(newsItem, x => x.ContentTitle)</h2>
+                </a>
+                <p><strong>@newsItem.Date.ToString("dd MMMM yyyy")</strong> - @Raw(newsItem.ContentIntroduction)</p>
+                <div><a href="@newsItem.Url" class="aanmeldButton">Lees meer</a></div>
+            </div>
+        </div>
+    }
+</div>

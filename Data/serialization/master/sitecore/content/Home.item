@@ -143,70 +143,9 @@ content-length: 0
 
 
 ----version----
-language: en
-version: 1
-revision: 59b47bf5-0c11-49cc-82da-e6fab1349630
-
-----field----
-field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
-name: __Display name
-key: __display name
-content-length: 0
-
-
-----field----
-field: {577F1689-7DE4-4AD2-A15F-7FDC1759285F}
-name: __Long description
-key: __long description
-content-length: 58
-
-The Home item is the default starting point for a website.
-----field----
-field: {9541E67D-CE8C-4225-803D-33F7F29F09EF}
-name: __Short description
-key: __short description
-content-length: 20
-
-Welcome to Sitecore.
-----field----
-field: {25BED78C-4957-4165-998A-CA1B52F67497}
-name: __Created
-key: __created
-content-length: 15
-
-20130128T124700
-----field----
-field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
-name: __Created by
-key: __created by
-content-length: 14
-
-sitecore\admin
-----field----
-field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
-name: __Revision
-key: __revision
-content-length: 36
-
-59b47bf5-0c11-49cc-82da-e6fab1349630
-----field----
-field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
-name: __Updated
-key: __updated
-content-length: 34
-
-20130128T214833:634950065134458202
-----field----
-field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
-name: __Updated by
-key: __updated by
-content-length: 14
-
-sitecore\admin
-----version----
 language: nl-NL
 version: 1
-revision: 7c5f6b68-5a88-4359-9336-1a2df720126d
+revision: ad250897-cd17-44f6-bce9-45f31c0d4b86
 
 ----field----
 field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
@@ -270,7 +209,7 @@ name: Call To Action Blocks
 key: call to action blocks
 content-length: 116
 
-{FA32E0D7-EB84-4EE7-AC2B-E09D6A5EB476}|{702C401D-D742-48D8-9459-F2738D69113A}|{A7228A09-E921-40C2-AEEF-FE1E7D3B92A9}
+{FA32E0D7-EB84-4EE7-AC2B-E09D6A5EB476}|{A7228A09-E921-40C2-AEEF-FE1E7D3B92A9}|{702C401D-D742-48D8-9459-F2738D69113A}
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -298,14 +237,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-7c5f6b68-5a88-4359-9336-1a2df720126d
+ad250897-cd17-44f6-bce9-45f31c0d4b86
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130131T214150:634952653108209794
+20130208T213327:634959560079287828
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

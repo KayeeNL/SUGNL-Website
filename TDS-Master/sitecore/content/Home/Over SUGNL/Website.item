@@ -1,0 +1,104 @@
+----item----
+version: 1
+id: {58FAAD46-A097-4216-A73C-3C36F46B1020}
+database: master
+path: /sitecore/content/Home/Over SUGNL/Website
+parent: {616EB2FD-452A-4C71-8120-DAD50804F602}
+name: Website
+master: {00000000-0000-0000-0000-000000000000}
+template: {BE20D2B2-3B39-492C-A8F4-2FA36842B971}
+templatekey: Content
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+600
+----version----
+language: nl-NL
+version: 1
+revision: 78872041-b9f8-4651-b7cd-1a13a9b40e8c
+
+----field----
+field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
+name: Browser Title
+key: browser title
+content-length: 7
+
+Website
+----field----
+field: {FB648209-FCCF-42ED-A2F5-7B4151447E9F}
+name: Hide In Menu
+key: hide in menu
+content-length: 1
+
+1
+----field----
+field: {B22197A6-5868-42DF-9BA5-0C19DA817C30}
+name: Menu Title
+key: menu title
+content-length: 7
+
+Website
+----field----
+field: {B1C8671B-97FB-41BC-B6B5-0B9D25A1360E}
+name: Content Title
+key: content title
+content-length: 7
+
+Website
+----field----
+field: {C75C7962-B318-465F-8996-0BCCCFB8864B}
+name: Content Introduction
+key: content introduction
+content-length: 81
+
+Deze website is tot stand gekomen met de vrijwilligheid van de volgende partijen:
+----field----
+field: {0D8D0290-C5B7-40CE-9485-F4861E1ED0EF}
+name: Content Text
+key: content text
+content-length: 1609
+
+<h3>Design en front-end</h3>
+<p><a href="http://www.estate.nl"><img alt="" style="width: 200px; height: 127px;" src="~/media/21A5F72B6E4A4055B347E7123C8CCB51.ashx" /></a></p>
+<p>Het Tilburgse full-service internetbureau Estate heeft op basis van een concept een nieuw design gemaakt voor de website van de Sitecore User Group Nederland. Daarnaast heeft Estate dit design uitgewerkt in een responsive HTML-prototype. Het responsive framework van Zurb, genaamd Foundation, is hiervoor ingezet.</p>
+<p>Meer info: <a href="http://www.estate.nl">http://www.estate.nl</a></p>
+<h3>Technische implementatie</h3>
+<p><a href="http://www.kayee.nl"><img alt="" style="width: 250px; height: 88px;" src="~/media/38FAA7A3CCD94CF8B0AD7F437ECE38CD.ashx" /></a></p>
+<p>Sitecore MVP <a href="~/link.aspx?_id=501037D2AC3A4C349D7230E85A5F07C3&amp;_z=z">Robbert Hock</a>, zelfstandig en opererend onder Kayee, heeft de technische realisatie op zich genomen voor de website van de Sitecore User Group Nederland. De website is gebouwd op Sitecore 6.6 en maakt gebruik van het Sitecore Glass Mapper Framework.</p>
+<p>Meer info: <a href="http://www.kayee.nl">http://www.kayee.nl</a></p>
+<h3>Hosting</h3>
+<p><a href="http://www.partechit.nl"><img alt="" width="199" height="52" src="~/media/1448B88373134E74849B8B90997B3D6C.ashx" /></a></p>
+<p>De website van de Sitecore User Group Nederland wordt gehost bij Sitecore resource partner Partech IT uit Den Bosch. Partech IT is het enige detacheringsbureau dat zich exclusief richt op Sitecore.</p>
+<p>Meer info: <a href="http://www.partechit.nl">http://www.partechit.nl</a></p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130208T213400
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+78872041-b9f8-4651-b7cd-1a13a9b40e8c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130208T224423:634959602635635416
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

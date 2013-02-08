@@ -165,6 +165,8 @@
     <Compile Include="MVC\Model\AgendaModel.cs" />
     <Compile Include="MVC\Model\AgendaOverviewModel.cs" />
     <Compile Include="MVC\Model\Base\BaseWebViewPage.cs" />
+    <Compile Include="MVC\Model\NewsModel.cs" />
+    <Compile Include="MVC\Model\NewsOverviewModel.cs" />
     <Compile Include="MVC\Model\DisclaimerModel.cs" />
     <Compile Include="MVC\Model\Interfaces\IDisclaimer.cs" />
     <Compile Include="MVC\Views\Codebehind\CallToActionBlocksView.cshtml.cs" />
@@ -312,6 +314,12 @@
     <Content Include="MVC\Views\DisclaimerView.cshtml">
       <SubType>Code</SubType>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MVC\Views\NewsOverviewView.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MVC\Views\NewsDetailView.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

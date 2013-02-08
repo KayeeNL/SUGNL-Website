@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {6B52DD84-5AE1-4E32-8898-EDB16CC0A589}
+database: master
+path: /sitecore/content/Home/Sitecore/Nieuws
+parent: {9E08C41E-F7A3-43D3-9531-6650947BFB7E}
+name: Nieuws
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCDE2A5-90A9-4666-ABA5-16F96CBECDBE}
+templatekey: News Overview
+
+----version----
+language: nl-NL
+version: 1
+revision: 5538743a-44e0-4672-a5f6-a53183cb2d24
+
+----field----
+field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
+name: Browser Title
+key: browser title
+content-length: 6
+
+Nieuws
+----field----
+field: {B22197A6-5868-42DF-9BA5-0C19DA817C30}
+name: Menu Title
+key: menu title
+content-length: 6
+
+Nieuws
+----field----
+field: {B1C8671B-97FB-41BC-B6B5-0B9D25A1360E}
+name: Content Title
+key: content title
+content-length: 6
+
+Nieuws
+----field----
+field: {9196F290-823E-45D0-BDEC-FB3336099611}
+name: Content SubTitle
+key: content subtitle
+content-length: 27
+
+Het laatste Sitecore nieuws
+----field----
+field: {C75C7962-B318-465F-8996-0BCCCFB8864B}
+name: Content Introduction
+key: content introduction
+content-length: 160
+
+Hieronder vind u het laatste Sitecore nieuws, dit kan nieuws zijn van Sitecore User Group Nederland zelf, van Sitecore, of van een van de partners van Sitecore.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130208T203100
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5538743a-44e0-4672-a5f6-a53183cb2d24
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130208T203303:634959523839893239
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -19,7 +19,7 @@ content-length: 3
 ----version----
 language: nl-NL
 version: 1
-revision: 5bc437fe-271c-4921-bbe5-858193c6862d
+revision: 98d1ec4d-a624-4ce5-b6ef-9c8fb9b8142a
 
 ----field----
 field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
@@ -50,6 +50,28 @@ content-length: 8
 
 Sitecore
 ----field----
+field: {9196F290-823E-45D0-BDEC-FB3336099611}
+name: Content SubTitle
+key: content subtitle
+content-length: 13
+
+Over Sitecore
+----field----
+field: {C75C7962-B318-465F-8996-0BCCCFB8864B}
+name: Content Introduction
+key: content introduction
+content-length: 169
+
+Sitecore herdefinieert hoe organisaties omgaan met het publiek en maakt aantrekkelijke ervaringen mogelijk die zich zowel online als persoonlijk aanpassen aan bezoekers.
+----field----
+field: {0D8D0290-C5B7-40CE-9485-F4861E1ED0EF}
+name: Content Text
+key: content text
+content-length: 961
+
+<p>Sitecore&rsquo;s toonaangevende Content Management Systeem is de eerste software die zich samenhangend integreert met geautomatiseerde marketing, intranet portalen, e-commerce, web optimalisatie, sociale media en campagne-managementtechnologie&euml;n. Deze brede keuze aan mogelijkheden stelt marketing professionals, business managers, zakelijke gebruikers en IT-teams in staat om een succesvolle website en digitale bedrijfsstrategie snel te implementeren, meten en beheren. Bedrijven kunnen nu gemakkelijk nieuwe klanten identificeren, bedienen en converteren met Sitecore&rsquo;s Digital Marketing Systeem, onderdeel van het omvattende Customer Engagement Platform.</p>
+<p>Duizenden publieke en particuliere organisaties hebben meer dan 32.000 websites en digitale ervaringen gecre&euml;erd en beheren deze met Sitecore, waaronder Koninklijke Gazelle, Eneco, Heineken, Microsoft, C1000, Siemens, Vodafone, Provincie Noord-Brabant en Damen Shipyards.</p>
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -62,14 +84,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5bc437fe-271c-4921-bbe5-858193c6862d
+98d1ec4d-a624-4ce5-b6ef-9c8fb9b8142a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130131T132251:634952353713465217
+20130208T210503:634959543034741507
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

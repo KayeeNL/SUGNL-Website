@@ -12,7 +12,7 @@ templatekey: Content
 ----version----
 language: nl-NL
 version: 1
-revision: 7c6abe79-feec-4d88-9261-2f7303dee251
+revision: 55f71b2d-a862-48a8-a19e-3748a497e213
 
 ----field----
 field: {9F258230-CDC4-461E-95A8-99B34AAE4C37}
@@ -53,13 +53,13 @@ Sitecore User Group Nederland (SUGNL) is in het leven geroepen om het Sitecore C
 field: {0D8D0290-C5B7-40CE-9485-F4861E1ED0EF}
 name: Content Text
 key: content text
-content-length: 679
+content-length: 737
 
 <p>Gedurende de diverse meetings worden er presentaties gegeven van technische Sitecore projecten, maar ook van de vele mogelijkheden van het Sitecore Customer Engagement Platform.</p>
 <p>Iedere presentatie avond zal worden gehouden bij een Sitecore partner, maar ook zijn er informele sessies, waar er lekker geborreld en genetwerkt kan worden. Iedereen die ge&iuml;nteresseerd is in Sitecore of Content Management is dan ook van harte welkom om lid te worden van Sitecore User Group Nederland.</p>
 <p><strong>Contact:</strong></p>
 <p>Twitter: <a href="http://twitter.com/SUG_NL">http://twitter.com/SUG_NL</a></p>
-<p>LinkedIN: http://nl.linkedin.com/groups/SUGNL-4608871</p>
+<p>LinkedIn: <a href="http://nl.linkedin.com/groups/SUGNL-4608871">http://nl.linkedin.com/groups/SUGNL-4608871</a></p>
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -73,14 +73,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-7c6abe79-feec-4d88-9261-2f7303dee251
+55f71b2d-a862-48a8-a19e-3748a497e213
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130116T213334:634939688142482783
+20130208T214727:634959568475278580
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

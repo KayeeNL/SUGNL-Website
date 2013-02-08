@@ -1,0 +1,28 @@
+@using Sitecore
+@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.TypedTemplate<Website.MVC.Model.NewsModel>
+<div class="row detail">
+    <div class="twelve columns">
+        @if (!string.IsNullOrEmpty(Model.ContentSubTitle))
+        {
+            <h2>@Editable(x=> x.ContentSubTitle)</h2>
+        }
+        else
+        {
+            <h2>@Editable(x=> x.ContentTitle)</h2>
+        }
+        <p>@Model.Date.ToString("dd MMMM yyyy")</p>
+    </div>
+    <div class="twelve columns">
+        <p class="intro">@Editable(x => x.ContentIntroduction)</p>
+    </div>
+    <div class="twelve columns genericContent">
+        @if (Context.PageMode.IsPageEditor)
+        {
+            Editable(x => x.ContentText);
+        }
+        else
+        {
+            @Raw(Model.ContentText)
+        }
+    </div>
+</div>
