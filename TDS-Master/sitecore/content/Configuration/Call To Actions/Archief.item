@@ -2,9 +2,9 @@
 version: 1
 id: {702C401D-D742-48D8-9459-F2738D69113A}
 database: master
-path: /sitecore/content/Configuration/Call To Actions/Downloads
+path: /sitecore/content/Configuration/Call To Actions/Archief
 parent: {8AFA0B9D-65CE-447E-A179-A455704A5C61}
-name: Downloads
+name: Archief
 master: {00000000-0000-0000-0000-000000000000}
 template: {C8649F61-D075-4528-805C-9C1A04F92D16}
 templatekey: Call To Action Block
@@ -19,15 +19,15 @@ content-length: 3
 ----version----
 language: nl-NL
 version: 1
-revision: c45b6fef-8f58-4156-9740-6e395ea7ea43
+revision: 68e46753-9fc8-4896-8a5b-61569632c072
 
 ----field----
 field: {9B859EE6-F004-474D-9D16-DF6BA11A08ED}
 name: Call To Action Title
 key: call to action title
-content-length: 9
+content-length: 7
 
-Downloads
+Archief
 ----field----
 field: {39A91BB9-6AAB-43E6-AE80-95A8C5A07ABD}
 name: Call To Action Image
@@ -35,6 +35,13 @@ key: call to action image
 content-length: 172
 
 <image mediaid="{BA5883EB-FDAD-4DAD-BF48-48AE27E4AE8A}" mediapath="/SUGNL/Call To Action Blocks/banner_sc7Starterkit" src="~/media/BA5883EBFDAD4DADBF4848AE27E4AE8A.ashx" />
+----field----
+field: {97860C9D-0903-46CB-AFF2-80FE45F6768B}
+name: Call To Action Link
+key: call to action link
+content-length: 122
+
+<link linktype="internal" url="/Home/Archief.aspx" querystring="" target="" id="{BA01B6B5-BF68-46DE-900F-BCE1227E72B0}" />
 ----field----
 field: {0CD2D253-2FCB-4893-8306-DE317A62A549}
 name: Call To Action CssClass
@@ -55,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c45b6fef-8f58-4156-9740-6e395ea7ea43
+68e46753-9fc8-4896-8a5b-61569632c072
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130208T213254:634959559741483995
+20130208T225952:634959611922504918
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
